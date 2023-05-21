@@ -92,7 +92,7 @@ try:
     card_count: int = 0
     sep: str = ","
     conf_contents: str = "#[My Cards]\n!My Cards\n$whitelist\n"
-    skip_folders: any = ['OCG', 'Rush']
+    skip_folders: list[str] = ['OCG', 'Rush']
 
     cards: list[any] = [] # List of all cards from Imported csv file
     cards_with_error: list[any] = [] # List of all cards with error
@@ -129,6 +129,7 @@ try:
 
     # Get delimeter from csv file
     try:
+        #csv_contents: str = ""
         remove_first_row: bool = False
         with open(csv_file_name, 'rt', encoding='utf-8') as f:
             first_line = f.readline().strip('\n').strip().strip('"')
@@ -140,14 +141,14 @@ try:
             if len(first_line_split) > 1:
                 first_line_right = str(first_line_split[1])
                 sep = first_line_right.replace("\"", "").strip()
-                log(f"Separator => {sep}")
+                log(f"Separator => {sep}.")
 
                 remove_first_row = True
 
         #Remove first line
-        #if remove_first_row:
-        #    pop_first_line(csv_file_name)
-        #    log("Removed first row for separator")
+        if remove_first_row:
+            pop_first_line(csv_file_name)
+            log("Removed first row for separator")
 
     except Exception as e:
         sep = ","
@@ -159,9 +160,12 @@ try:
             csv_reader = csv.reader(csv_file, delimiter=sep)
             #csv_reader = csv.DictReader(csv_file)
             line_count: int = -1
+
+            headers = next(csv_reader)
+            log(f"Headers => {str(headers)}")
             for row in csv_reader:
                 line_count = line_count + 1
-                if line_count <= 1:
+                if line_count < 0:
                     log(f"L{line_count}; empty line => {str(row)}")
                 #elif line_count == 1:
                 #    log(f'Column names are {", ".join(row)}')
@@ -235,9 +239,9 @@ try:
                 log(f"\tUse cached file => {card_setcode}")
                 is_request = False
             
-            # Sleep for 50 milliseconds, if request is made
+            # Sleep for 100 milliseconds, if request is made
             if is_request:
-                sleep(0.05)
+                sleep(0.10)
             
             #break
 
