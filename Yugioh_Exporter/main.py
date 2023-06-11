@@ -44,7 +44,7 @@ def pop_first_line(file: str) -> str:
 
 def write_file(filename: str, content: str) -> bool:
     try:
-        with open(filename, 'w') as f:
+        with open(filename, 'w', encoding = 'utf8') as f:
             f.write(content)
         return True
     except Exception as e:
@@ -80,9 +80,11 @@ try:
     index_qty: int = 1
     index_folder_name: int = 0
     index_tradeqty: int = 2
+    csv_text_encoding: str = "utf-8"
 
     # File paths
-    csv_file_name: str = "all-folders.csv"
+    csv_file_name: str = "all-folders-output.csv"
+    csv_file_name_source: str = "all-folders"
     export_json_file_name: str = "cards.json"
     export_conf_file: str = "MyCards.lflist.conf"
     jsonfile_cards_with_error: str = "cards_with_error.json"
@@ -103,6 +105,7 @@ try:
     card_setcode: str = ""
     row_card_name: str = ""
     card_folder_name: str = ""
+    contents_decode: str = ""
     card_setcode_split: any = None
     card_json: any = None
     card_json_setcode: any = None
@@ -114,24 +117,39 @@ try:
     Path(folder_setcodes).mkdir(parents=True, exist_ok=True)
 
     # Ask for export file
-    csv_file_name = "all-folders"#input("DragonShield export file name => ")
+    #csv_file_name = input("DragonShield export file name => ")
 
     # Verify file
-    if not csv_file_name.endswith(".csv"):
-        csv_file_name += ".csv"
+    if not csv_file_name_source.endswith(".csv"):
+        csv_file_name_source += ".csv"
 
-    #csv_file_name = os.path.join(".", csv_file_name)
-    log(f"DragonShield Export File => {csv_file_name}")
+    #csv_file_name = os.path.join(".", csv_file_name_source)
+    log(f"DragonShield Export File => {csv_file_name_source}")
 
-    if not os.path.exists(csv_file_name):
-        log(f"Invalid file => {csv_file_name}")
-        pass
+    if not os.path.exists(csv_file_name_source):
+        log(f"Invalid file => {csv_file_name_source}")
+        raise Exception("File not found")
+
+    # Convert csv encoding from 'utf-16-le' to 'utf-8'
+    try:
+        with open(csv_file_name_source, "r", encoding = "utf-16-le") as sourceFile:
+            log("Opening source file..")
+            with open(csv_file_name, "w", encoding = csv_text_encoding) as targetFile:
+                log("Reading source file..")
+                contents = sourceFile.read()
+                log("Saving output file..")
+                targetFile.write(contents)
+                log("Saving output file..Done!")
+
+    except Exception as e:
+        log_err("CSV Encoding error", e)
+        raise Exception("CSV Encoding error")
 
     # Get delimeter from csv file
     try:
         #csv_contents: str = ""
         remove_first_row: bool = False
-        with open(csv_file_name, 'rt', encoding='utf-8') as f:
+        with open(csv_file_name, 'rt', encoding = csv_text_encoding) as f:
             first_line = f.readline().strip('\n').strip().strip('"')
             log(f"First line => {str(first_line)}")
             
@@ -153,10 +171,11 @@ try:
     except Exception as e:
         sep = ","
         log_err("CSV delimeter error", e)
+        raise Exception("CSV Delimeter error")
 
     # Read CSV file
     try:
-        with open(csv_file_name, 'rt', encoding='utf-8', newline='') as csv_file:
+        with open(csv_file_name, 'rt', encoding = csv_text_encoding, newline='') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=sep)
             #csv_reader = csv.DictReader(csv_file)
             line_count: int = -1
@@ -190,6 +209,7 @@ try:
                         log(f"Skip card from folder => {card_folder_name}; {row_card_name}")
     except Exception as e:
         log_err("CSV file error", e)
+        raise Exception("CSV File error")
         
     log(f"Processed {card_count} cards.")
 
