@@ -71,6 +71,128 @@ def read_json(filename: str) -> any:
         log_err("Error", e)
         return None
 
+def process_card_list(is_tcg: bool, export_json_file_name: str, jsonfile_card_conf_list: str, jsonfile_cards_with_error: str, export_conf_file: str):
+    # Read from JSON file and request card passcode
+    card_json = read_json(export_json_file_name)
+
+    card_format: str = "TCG" if is_tcg else "OCG"
+    conf_contents: str = "#[My Cards TCG]\n!My Cards TCG\n$whitelist\n" if is_tcg else "#[My Cards OCG]\n!My Cards OCG\n$whitelist\n"
+    card_conf_list: list[any] = [] # List of all card to be put to conf file.
+    cards_with_error: list[any] = [] # List of all cards with error
+
+    if card_json is not None:
+        log(f"JSON file loaded for {card_format} card list")
+
+        for entry in card_json:
+            card_id: int = 0
+            card_name = str(entry["name"])
+            card_setcode = str(entry["set"])
+            card_qty = int(entry["qty"])
+            card_trade_qty = int(entry["trade_qty"])
+            log(f"\tRequesting passcode for {card_name} with setcode '{card_setcode}'")
+
+            # set filename for json file cache
+            card_setcode = card_setcode.rstrip('r').rstrip('b')
+            jsonfile_setcode: str = os.path.join(folder_setcodes, f"{card_setcode}.json")
+
+            # Write to json file cache, if its not already existing
+            if not os.path.exists(jsonfile_setcode):
+                # GET request to YGOPRODECK API
+                req_object = requests.get(route_setcode.format(card_setcode))
+                #log(f"\tRequest response: {req_object.status_code}")
+
+                if req_object.ok:
+                    temp_object = json.loads(req_object.text)
+                    if "id" in temp_object:
+                        # Write to file
+                        write_file(jsonfile_setcode, req_object.text)
+                        #log(f"\tWrite to cache => {card_setcode}")
+                    else:
+                        cards_with_error.append(entry)
+                        log(f"\tIssue found on saving ({req_object.status_code}) => {card_setcode}")
+                else:
+                    cards_with_error.append(entry)
+                    log(f"\tIssue found on searching ({req_object.status_code}) => {card_setcode}")
+
+                # Toggle variable
+                is_request = True
+            else:
+                log(f"\tUse cached file => {card_setcode}")
+                is_request = False
+            
+            # Sleep for 100 milliseconds, if request is made
+            if is_request:
+                sleep(0.10)
+            
+            #break
+
+            # Read setcode info
+            if os.path.exists(jsonfile_setcode):
+                is_already_exist = False
+                try:
+                    # Measure quantity
+                    total_qty = card_qty
+                    if total_qty <= 0:
+                        total_qty = card_trade_qty
+                    if total_qty > 3:
+                        total_qty = 3
+                    # Read json file from setcode folder
+                    card_json_setcode = read_json(jsonfile_setcode)
+                    card_id = int(card_json_setcode["id"])
+                    card_name = str(card_json_setcode["name"])
+                except Exception as e:
+                    cards_with_error.append(entry)
+                    log_err(f"Issue found on reading => {card_setcode}.json", e)
+                    if os.path.exists(jsonfile_setcode):
+                        os.remove(jsonfile_setcode)
+                
+                try:
+                    # Find item if it already exist, and add quantity
+                    for x in card_conf_list:
+                        if x["id"] and int(x["id"]) == card_id:
+                            is_already_exist = True
+                            x_qty = int(x["qty"]) + total_qty
+                            x_card_id = str(x["id"])
+                            x_cardname = str(x["name"])
+                            x["qty"] = x_qty
+                            log(f"\tCard info updated => [Id: {x_card_id}] [Name: {x_cardname} [Qty: {x_qty}]")
+                            break
+                    
+                    if not is_already_exist:
+                        # Append to list
+                        #log(f"\tCard info => [Id: {card_id}] [Name: {card_name}")
+                        new_card_object = {
+                            "id": card_id,
+                            "name": card_name,
+                            "qty": total_qty
+                        }
+                        card_conf_list.append(new_card_object)
+                    else:
+                        continue
+                except Exception as e:
+                    cards_with_error.append(entry)
+                    log_err(f"\tIssue found on looking up {card_setcode}.json - {card_name}", e)
+                
+        
+        # Dump all cards with combined qty
+        write_json(jsonfile_card_conf_list, card_conf_list)
+
+        for conf_entry in card_conf_list:
+            card_id = int(conf_entry["id"])
+            card_name = str(conf_entry["name"])
+            total_qty = int(conf_entry["qty"])
+            if total_qty > 3:
+                total_qty = 3
+            # Add new line to conf export file.
+            if card_id > 0 and total_qty > 0:
+                conf_contents += f"{card_id} {total_qty} #{card_name}\n"
+
+    # Dump error cards
+    write_json(jsonfile_cards_with_error, cards_with_error)
+
+    # Dump file
+    write_file(export_conf_file, conf_contents)
+
 # Main
 try:
     # Constants
@@ -91,31 +213,29 @@ try:
     csv_text_encoding: str = "utf-8"
     price_conversion_php: float = 55.00
     # Use for array holders
-    format_tcg: int = 0
-    format_ocg: int = 1
+    index_tcg: int = 0
+    index_ocg: int = 1
 
     # File paths
     csv_file_name: str = "all-folders-output.csv"
     csv_file_name_source: str = "all-folders"
     # Export filepaths
-    export_json_file_name: list[str] = ["cards_tcg.json", "cards_ocg.json"]
+    export_json_file_name: list[str] = ["tcg_cards.json", "ocg_cards.json"]
     export_conf_file: list[str] = ["MyCards_TCG.lflist.conf", "MyCards_OCG.lflist.conf"]
-    jsonfile_cards_with_error: str = "cards_with_error.json"
-    jsonfile_card_conf_list: str = "conf_cards.json"
-    jsonfile_listings: str = "listings.json"
+    jsonfile_cards_with_error: list[str] = ["TCG_cards_error.json", "OCG_cards_error.json"]
+    jsonfile_card_conf_list: list[str] = ["TCG_cards_conf.json", "OCG_cards_conf.json"]
+    jsonfile_listings: list[str] = ["TCG_listings.json", "OCG_listings.json"]
 
     # Variables
     card_count: int = 0
     sep: str = ","
-    conf_contents: str = "#[My Cards]\n!My Cards\n$whitelist\n"
     folder_skip: list[str] = ['Rush']
     folder_listing: list[str] = ['Binder', 'Gold Binder']
 
     cards: list[any] = [] # List of all cards from Imported csv file
     cards_ocg: list[any] = [] # OCG List
-    cards_with_error: list[any] = [] # List of all cards with error
-    card_conf_list: list[any] = [] # List of all card to be put to conf file.
     card_listings: list[any] = [] # List of card listings with rarity. For shop use.
+    card_listings_ocg: list[any] = []
 
     # Dynamic variables for local use
     jsonfile_setcode: str = ""
@@ -261,8 +381,11 @@ try:
                         "price_mid": price_mid,
                         "price_market": index_price_market,
                         "rarity" : card_rarity
-                        } 
-                        card_listings.append(new_obj_listing)
+                        }
+                        if is_ocg:
+                            card_listings_ocg.append(new_obj_listing)
+                        else:
+                            card_listings.append(new_obj_listing)
 
     except Exception as e:
         log_err("CSV file error", e)
@@ -270,129 +393,23 @@ try:
         
     log(f"Processed {card_count} cards.")
 
-    write_json(export_json_file_name[0], cards)
+    # Process TCG cards
+    write_json(export_json_file_name[index_tcg], cards)
     log(f"Exported TCG card list.")
 
-    write_json(jsonfile_listings, card_listings)
-    log(f"Exported to listing file => {jsonfile_listings}")
+    write_json(jsonfile_listings[index_tcg], card_listings)
+    log(f"Exported TCG listings.")
 
-    # Read from JSON file and request card passcode
-    card_json = read_json(export_json_file_name[0])
+    process_card_list(True, export_json_file_name[index_tcg], jsonfile_card_conf_list[index_tcg], jsonfile_cards_with_error[index_tcg], export_conf_file[index_tcg])
 
-    if card_json is not None:
-        log("JSON file loaded!")
+    # Process OCG cards
+    write_json(export_json_file_name[index_ocg], cards_ocg)
+    log(f"Exported OCG card list.")
 
-        for entry in card_json:
-            card_name = str(entry["name"])
-            card_setcode = str(entry["set"])
-            card_qty = int(entry["qty"])
-            card_trade_qty = int(entry["trade_qty"])
-            card_id: str = ""
-            log(f"\tRequesting passcode for {card_name} with setcode '{card_setcode}'")
+    write_json(jsonfile_listings[index_ocg], card_listings_ocg)
+    log(f"Exported OCG listings.")
 
-            # set filename for json file cache
-            card_setcode = card_setcode.rstrip('r').rstrip('b')
-            jsonfile_setcode: str = os.path.join(folder_setcodes, f"{card_setcode}.json")
-
-            # Write to json file cache, if its not already existing
-            if not os.path.exists(jsonfile_setcode):
-                # GET request to YGOPRODECK API
-                req_object = requests.get(route_setcode.format(card_setcode))
-                #log(f"\tRequest response: {req_object.status_code}")
-
-                if req_object.ok:
-                    temp_object = json.loads(req_object.text)
-                    if "id" in temp_object:
-                        # Write to file
-                        write_file(jsonfile_setcode, req_object.text)
-                        #log(f"\tWrite to cache => {card_setcode}")
-                    else:
-                        cards_with_error.append(entry)
-                        log(f"\tIssue found on saving ({req_object.status_code}) => {card_setcode}")
-                else:
-                    cards_with_error.append(entry)
-                    log(f"\tIssue found on searching ({req_object.status_code}) => {card_setcode}")
-
-                # Toggle variable
-                is_request = True
-            else:
-                log(f"\tUse cached file => {card_setcode}")
-                is_request = False
-            
-            # Sleep for 100 milliseconds, if request is made
-            if is_request:
-                sleep(0.10)
-            
-            #break
-
-            # Read setcode info
-            if os.path.exists(jsonfile_setcode):
-                is_already_exist = False
-                card_id: int = 0
-                card_name: str = ""
-                try:
-                    # Measure quantity
-                    total_qty = card_qty
-                    if total_qty <= 0:
-                        total_qty = card_trade_qty
-                    if total_qty > 3:
-                        total_qty = 3
-                    # Read json file from setcode folder
-                    card_json_setcode = read_json(jsonfile_setcode)
-                    card_id = int(card_json_setcode["id"])
-                    card_name = str(card_json_setcode["name"])
-                except Exception as e:
-                    cards_with_error.append(entry)
-                    log_err(f"Issue found on reading => {card_setcode}.json", e)
-                    if os.path.exists(jsonfile_setcode):
-                        os.remove(jsonfile_setcode)
-                
-                try:
-                    # Find item if it already exist, and add quantity
-                    for x in card_conf_list:
-                        if x["id"] and int(x["id"]) == card_id:
-                            is_already_exist = True
-                            x_qty = int(x["qty"]) + total_qty
-                            x_card_id = str(x["id"])
-                            x_cardname = str(x["name"])
-                            x["qty"] = x_qty
-                            log(f"\tCard info updated => [Id: {x_card_id}] [Name: {x_cardname} [Qty: {x_qty}]")
-                            break
-                    
-                    if not is_already_exist:
-                        # Append to list
-                        #log(f"\tCard info => [Id: {card_id}] [Name: {card_name}")
-                        new_card_object = {
-                            "id": card_id,
-                            "name": card_name,
-                            "qty": total_qty
-                        }
-                        card_conf_list.append(new_card_object)
-                    else:
-                        continue
-                except Exception as e:
-                    cards_with_error.append(entry)
-                    log_err(f"\tIssue found on looking up {card_setcode}.json - {card_name}", e)
-                
-        
-        # Dump all cards with combined qty
-        write_json(jsonfile_card_conf_list, card_conf_list)
-
-        for conf_entry in card_conf_list:
-            card_id = int(conf_entry["id"])
-            card_name = str(conf_entry["name"])
-            total_qty = int(conf_entry["qty"])
-            if total_qty > 3:
-                total_qty = 3
-            # Add new line to conf export file.
-            if card_id > 0 and total_qty > 0:
-                conf_contents += f"{card_id} {total_qty} #{card_name}\n"
-
-    # Dump error cards
-    write_json(jsonfile_cards_with_error, cards_with_error)
-
-    # Dump file
-    write_file(export_conf_file[0], conf_contents)
+    process_card_list(False, export_json_file_name[index_ocg], jsonfile_card_conf_list[index_ocg], jsonfile_cards_with_error[index_ocg], export_conf_file[index_ocg])
 
 except Exception as e:
     log_err("Error, main", e)
