@@ -71,12 +71,11 @@ def read_json(filename: str) -> any:
         log_err("Error", e)
         return None
 
-def process_card_list(is_tcg: bool, export_json_file_name: str, jsonfile_card_conf_list: str, jsonfile_cards_with_error: str, export_conf_file: str):
+def process_card_list(card_format: str, export_json_file_name: str, jsonfile_card_conf_list: str, jsonfile_cards_with_error: str, export_conf_file: str):
     # Read from JSON file and request card passcode
     card_json = read_json(export_json_file_name)
 
-    card_format: str = "TCG" if is_tcg else "OCG"
-    conf_contents: str = "#[My Cards TCG]\n!My Cards TCG\n$whitelist\n" if is_tcg else "#[My Cards OCG]\n!My Cards OCG\n$whitelist\n"
+    conf_contents: str = f"#[My Cards {card_format}]\n!My Cards {card_format}\n$whitelist\n"
     card_conf_list: list[any] = [] # List of all card to be put to conf file.
     cards_with_error: list[any] = [] # List of all cards with error
 
@@ -213,18 +212,19 @@ try:
     csv_text_encoding: str = "utf-8"
     price_conversion_php: float = 55.00
     # Use for array holders
-    index_tcg: int = 0
-    index_ocg: int = 1
+    index_all: int = 0
+    index_tcg: int = 1
+    index_ocg: int = 2
 
     # File paths
     csv_file_name: str = "all-folders-output.csv"
     csv_file_name_source: str = "all-folders"
     # Export filepaths
-    export_json_file_name: list[str] = ["tcg_cards.json", "ocg_cards.json"]
-    export_conf_file: list[str] = ["MyCards_TCG.lflist.conf", "MyCards_OCG.lflist.conf"]
-    jsonfile_cards_with_error: list[str] = ["TCG_cards_error.json", "OCG_cards_error.json"]
-    jsonfile_card_conf_list: list[str] = ["TCG_cards_conf.json", "OCG_cards_conf.json"]
-    jsonfile_listings: list[str] = ["TCG_listings.json", "OCG_listings.json"]
+    export_json_file_name: list[str] = [ "cards.json", "tcg_cards.json", "ocg_cards.json" ]
+    export_conf_file: list[str] = [ "MyCards.lflist.conf", "MyCards_TCG.lflist.conf", "MyCards_OCG.lflist.conf" ]
+    jsonfile_cards_with_error: list[str] = [ "cards_error.json", "TCG_cards_error.json", "OCG_cards_error.json" ]
+    jsonfile_card_conf_list: list[str] = [ "cards_conf.json", "TCG_cards_conf.json", "OCG_cards_conf.json" ]
+    jsonfile_listings: list[str] = [ "listings.json", "TCG_listings.json", "OCG_listings.json" ]
 
     # Variables
     card_count: int = 0
@@ -233,6 +233,7 @@ try:
     folder_listing: list[str] = ['Binder', 'Gold Binder']
 
     cards: list[any] = [] # List of all cards from Imported csv file
+    cards_tcg: list[any] = [] # TCG-only list
     cards_ocg: list[any] = [] # OCG List
     card_listings: list[any] = [] # List of card listings with rarity. For shop use.
     card_listings_ocg: list[any] = []
@@ -355,10 +356,11 @@ try:
                         "format": card_format
                     }
                     if card_folder_name not in folder_skip:
+                        cards.append(new_card_object)
                         if is_ocg:
                             cards_ocg.append(new_card_object)
                         else:
-                            cards.append(new_card_object)
+                            cards_tcg.append(new_card_object)
 
                     # Add to listings
                     #if card_folder_name in folder_listing: # Check condition for listing
@@ -393,14 +395,23 @@ try:
         
     log(f"Processed {card_count} cards.")
 
+    # Process All cards OCG/TCG
+    write_json(export_json_file_name[index_all], cards)
+    log(f"Exported OCG/TCG card list.")
+
+    write_json(jsonfile_listings[index_all], card_listings)
+    log(f"Exported OCG/TCG listings.")
+
+    process_card_list("OCG/TCG", export_json_file_name[index_all], jsonfile_card_conf_list[index_all], jsonfile_cards_with_error[index_all], export_conf_file[index_all])
+
     # Process TCG cards
-    write_json(export_json_file_name[index_tcg], cards)
+    write_json(export_json_file_name[index_tcg], cards_tcg)
     log(f"Exported TCG card list.")
 
     write_json(jsonfile_listings[index_tcg], card_listings)
     log(f"Exported TCG listings.")
 
-    process_card_list(True, export_json_file_name[index_tcg], jsonfile_card_conf_list[index_tcg], jsonfile_cards_with_error[index_tcg], export_conf_file[index_tcg])
+    process_card_list("TCG", export_json_file_name[index_tcg], jsonfile_card_conf_list[index_tcg], jsonfile_cards_with_error[index_tcg], export_conf_file[index_tcg])
 
     # Process OCG cards
     write_json(export_json_file_name[index_ocg], cards_ocg)
@@ -409,7 +420,7 @@ try:
     write_json(jsonfile_listings[index_ocg], card_listings_ocg)
     log(f"Exported OCG listings.")
 
-    process_card_list(False, export_json_file_name[index_ocg], jsonfile_card_conf_list[index_ocg], jsonfile_cards_with_error[index_ocg], export_conf_file[index_ocg])
+    process_card_list("OCG", export_json_file_name[index_ocg], jsonfile_card_conf_list[index_ocg], jsonfile_cards_with_error[index_ocg], export_conf_file[index_ocg])
 
 except Exception as e:
     log_err("Error, main", e)
