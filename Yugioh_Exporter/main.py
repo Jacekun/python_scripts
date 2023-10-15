@@ -196,6 +196,7 @@ def process_card_list(card_format: str, export_json_file_name: str, jsonfile_car
 try:
     # Constants
     folder_setcodes = "setcodes"
+    folder_outputs = "output"
     route_setcode = "https://db.ygoprodeck.com/api/v7/cardsetsinfo.php?setcode={0}&includeAliased&num=1&offset=0"
     route_image = "https://images.ygoprodeck.com/images/cards/{0}.jpg" # card passcode
     index_folder_name: int = 0
@@ -220,11 +221,31 @@ try:
     csv_file_name: str = "all-folders-output.csv"
     csv_file_name_source: str = "all-folders"
     # Export filepaths
-    export_json_file_name: list[str] = [ "cards.json", "tcg_cards.json", "ocg_cards.json" ]
-    export_conf_file: list[str] = [ "MyCards.lflist.conf", "MyCards_TCG.lflist.conf", "MyCards_OCG.lflist.conf" ]
-    jsonfile_cards_with_error: list[str] = [ "cards_error.json", "TCG_cards_error.json", "OCG_cards_error.json" ]
-    jsonfile_card_conf_list: list[str] = [ "cards_conf.json", "TCG_cards_conf.json", "OCG_cards_conf.json" ]
-    jsonfile_listings: list[str] = [ "listings.json", "TCG_listings.json", "OCG_listings.json" ]
+    export_json_file_name: list[str] = [ 
+        os.path.join(folder_outputs, "cards.json"),
+        os.path.join(folder_outputs, "TCG_cards.json"), 
+        os.path.join(folder_outputs,  "OCG_cards.json")
+    ]
+    export_conf_file: list[str] = [ 
+        os.path.join(folder_outputs, "MyCards.lflist.conf"),
+        os.path.join(folder_outputs, "MyCards_TCG.lflist.conf"),
+        os.path.join(folder_outputs, "MyCards_OCG.lflist.conf")
+    ]
+    jsonfile_cards_with_error: list[str] = [ 
+        os.path.join(folder_outputs, "cards_error.json"),
+        os.path.join(folder_outputs, "TCG_cards_error.json"),
+        os.path.join(folder_outputs, "OCG_cards_error.json")
+    ]
+    jsonfile_card_conf_list: list[str] = [ 
+        os.path.join(folder_outputs, "cards_conf.json"),
+        os.path.join(folder_outputs, "TCG_cards_conf.json"),
+        os.path.join(folder_outputs, "OCG_cards_conf.json")
+    ]
+    jsonfile_listings: list[str] = [ 
+        os.path.join(folder_outputs, "listings.json"),
+        os.path.join(folder_outputs, "TCG_listings.json"),
+        os.path.join(folder_outputs, "OCG_listings.json")
+    ]
 
     # Variables
     card_count: int = 0
@@ -259,6 +280,7 @@ try:
 
     # Create necessary folders
     Path(folder_setcodes).mkdir(parents=True, exist_ok=True)
+    Path(folder_outputs).mkdir(parents=True, exist_ok=True)
 
     # Ask for export file
     #csv_file_name = input("DragonShield export file name => ")
@@ -335,7 +357,7 @@ try:
                 else:
                     card_folder_name = str(row[index_folder_name])
                     row_card_name = str(row[index_cardname])
-                    is_ocg = card_folder_name == "OCG"
+                    is_ocg = card_folder_name.strip().startswith("OCG")
                     card_format = "OCG" if is_ocg else "TCG"
                     
                     log(f"\tL{line_count}; Processing {row_card_name} with cardset '{row[index_cardnumber]}'")
@@ -404,6 +426,7 @@ try:
 
     process_card_list("OCG/TCG", export_json_file_name[index_all], jsonfile_card_conf_list[index_all], jsonfile_cards_with_error[index_all], export_conf_file[index_all])
 
+    #"""
     # Process TCG cards
     write_json(export_json_file_name[index_tcg], cards_tcg)
     log(f"Exported TCG card list.")
@@ -412,7 +435,9 @@ try:
     log(f"Exported TCG listings.")
 
     process_card_list("TCG", export_json_file_name[index_tcg], jsonfile_card_conf_list[index_tcg], jsonfile_cards_with_error[index_tcg], export_conf_file[index_tcg])
+    #"""
 
+    #"""
     # Process OCG cards
     write_json(export_json_file_name[index_ocg], cards_ocg)
     log(f"Exported OCG card list.")
@@ -421,6 +446,7 @@ try:
     log(f"Exported OCG listings.")
 
     process_card_list("OCG", export_json_file_name[index_ocg], jsonfile_card_conf_list[index_ocg], jsonfile_cards_with_error[index_ocg], export_conf_file[index_ocg])
+    #"""
 
 except Exception as e:
     log_err("Error, main", e)
