@@ -33,6 +33,10 @@ jobs:
           ref: ${{ github.event.inputs.git-ref }}
         if: github.event.inputs.git-ref != ''
 
+      - name: List files in the repository
+        run: |
+            ls .
+            
       - name: Install requirements.txt
         working-directory: './OnePieceTCG'
         run: pip install -r requirements.txt
