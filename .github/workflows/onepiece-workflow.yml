@@ -33,9 +33,14 @@ jobs:
           ref: ${{ github.event.inputs.git-ref }}
         if: github.event.inputs.git-ref != ''
 
+      - name: Install requirements.txt
+        working-directory: './OnePieceTCG'
+        run: pip install -r requirements.txt
+        
       - name: Run main python script
+        working-directory: './OnePieceTCG'
         run: |
-          cp ./OnePieceTCG/main.py .
+          cp ./main.py
 
       - name: Commit to the repo
         run: |
