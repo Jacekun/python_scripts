@@ -39,10 +39,11 @@ jobs:
             ${{ env.FOLDER }}
         if: github.event.inputs.git-ref != ''
 
-      - name: List files in the repository
+      - name: Debugging files and refs
         working-directory: './${{ env.FOLDER }}'
         run: |
             ls .
+            git show-ref
             
       - name: Install requirements.txt
         working-directory: './${{ env.FOLDER }}'
