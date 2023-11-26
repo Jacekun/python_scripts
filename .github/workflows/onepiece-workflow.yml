@@ -1,0 +1,33 @@
+name: Populate OnePiece database
+on:
+  # Every Friday at 10:00 UTC
+  schedule:
+    - cron: '0 5 * * 5'
+
+concurrency: 
+  group: "onepiece"
+  cancel-in-progress: true
+
+env:
+  REPO_BRANCH: onepiece
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: '${{ env.REPO_BRANCH }}'
+
+      - name: Run main python script
+        run: |
+          cp ./OnePieceTCG/main.py .
+
+      - name: Commit to the repo
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          # "echo" returns true so the build succeeds, even if no changed files
+          git commit -m '[skip ci] updated one piece tcg database' || echo
+          git push
