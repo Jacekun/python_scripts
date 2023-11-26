@@ -4,9 +4,17 @@ on:
   schedule:
     - cron: '0 5 * * 5'
 
+   # Manual triggers
+  workflow_dispatch:
+    inputs:
+      git-ref:
+        description: Git Ref (Optional)
+        required: false
+
 concurrency: 
   group: "onepiece"
   cancel-in-progress: true
+
 
 env:
   REPO_BRANCH: onepiece
@@ -15,9 +23,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Clone repo, using branch name
+        uses: actions/checkout@v3
         with:
           ref: '${{ env.REPO_BRANCH }}'
+        if: github.event.inputs.git-ref == ''
+
+      - name: Clone repo with ref
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.inputs.git-ref }}
+        if: github.event.inputs.git-ref != ''
 
       - name: Run main python script
         run: |
