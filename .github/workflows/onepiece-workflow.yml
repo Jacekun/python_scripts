@@ -25,8 +25,6 @@ jobs:
     steps:
       - name: Clone repo, using branch name
         uses: actions/checkout@v3
-        with:
-          ref: '${{ env.REPO_BRANCH }}'
         if: github.event.inputs.git-ref == ''
 
       - name: Clone repo with ref
@@ -45,5 +43,5 @@ jobs:
           git config user.email "actions@github.com"
           git add .
           # "echo" returns true so the build succeeds, even if no changed files
-          git commit -m '[skip ci] updated one piece tcg database' || echo
-          git push
+          git commit --amend -m '[skip ci] updated one piece tcg database' || echo
+          git push --force origin ${{ env.REPO_BRANCH }}
