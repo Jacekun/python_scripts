@@ -43,7 +43,8 @@ jobs:
         
       - name: Run main python script
         working-directory: './OnePieceTCG'
-        run: py ./main.py
+        run: |
+            cp ./main.py .
 
       - name: Commit to the repo
         run: |
