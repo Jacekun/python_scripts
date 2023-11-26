@@ -84,11 +84,13 @@ def main():
         file_output_card: str = ""
         contents_html: str = None
 
+        is_use_cache: bool = False
+
         #-- Create Folders
         Path("output").mkdir(parents=True, exist_ok=True)
 
         #-- Load from cache if available
-        if os.path.exists(file_cardlist_html):
+        if os.path.exists(file_cardlist_html) and is_use_cache:
             log(f"Reading cached file : {file_cardlist_html}")
             contents_html = read_file(file_cardlist_html).strip()
         else:
@@ -186,6 +188,7 @@ def main():
 
     except Exception as e:
         log_err("Main", e)
+        raise Exception("Error on Main process.")
 
 if __name__ == "__main__":
     main()
