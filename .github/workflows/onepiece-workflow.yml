@@ -33,18 +33,20 @@ jobs:
         if: github.event.inputs.git-ref == ''
         with:
           fetch-depth: 0
-          sparse-checkout: |
-            ${{ env.FOLDER }}
-
+          ref: ${{ env.REPO_BRANCH }}
+          
       - name: Clone repo with ref
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
           ref: ${{ github.event.inputs.git-ref }}
-          sparse-checkout: |
-            ${{ env.FOLDER }}
         if: github.event.inputs.git-ref != ''
 
+      - name: Merge upstream 'main' branch into current branch
+        run: |
+          git fetch origin ${{ env.MAIN_BRANCH }}
+          git merge origin/${{ env.MAIN_BRANCH }}
+      
       - name: Debugging files and refs
         working-directory: './${{ env.FOLDER }}'
         run: |
@@ -60,12 +62,10 @@ jobs:
         run: python main.py
 
       - name: Commit to the repo
-        working-directory: './${{ env.FOLDER }}'
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git pull origin ${{ env.MAIN_BRANCH }}
-          git add .
+          git add ${{ env.FOLDER }}
           # "echo" returns true so the build succeeds, even if no changed files
           git commit -m '[skip ci] updated one piece tcg database' || echo
-          git push origin ${{ env.MAIN_BRANCH }}:${{ env.REPO_BRANCH }}
+          git push origin ${{ env.REPO_BRANCH }}
