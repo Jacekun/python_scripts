@@ -1,0 +1,14 @@
+{
+    "Name": "Uta",
+    "Set": "OP01-005",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-005_p1.png?231031",
+    "Cost": "4",
+    "Power": "4000",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "FILM",
+    "Text": "Effect[On Play] Add up to 1 red Character card other than [Uta] with a cost of 3 or less from your trash to your hand."
+}

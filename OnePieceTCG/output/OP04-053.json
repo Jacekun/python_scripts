@@ -1,0 +1,14 @@
+{
+    "Name": "Page One",
+    "Set": "OP04-053",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-053.png?231031",
+    "Cost": "4",
+    "Power": "6000",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Animal Kingdom Pirates",
+    "Text": "Effect[DON!! x1] [Once Per Turn] When you activate an Event, draw 1 card. Then, place 1 card from your hand at the bottom of your deck."
+}

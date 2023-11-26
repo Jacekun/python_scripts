@@ -1,0 +1,14 @@
+{
+    "Name": "Perona",
+    "Set": "OP01-077",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-077_p1.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Thriller Bark Pirates",
+    "Text": "Effect[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order."
+}

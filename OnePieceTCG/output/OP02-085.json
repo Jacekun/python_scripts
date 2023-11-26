@@ -1,0 +1,14 @@
+{
+    "Name": "Magellan",
+    "Set": "OP02-085",
+    "Rarity": "SP CARD",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085_p2.png?231031",
+    "Cost": "5",
+    "Power": "6000",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "Impel Down",
+    "Text": "Effect[On Play] DON!! \u22121 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck.[Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck."
+}

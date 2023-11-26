@@ -1,0 +1,14 @@
+{
+    "Name": "Karasu",
+    "Set": "OP05-005",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-005.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Revolutionary Army",
+    "Text": "Effect[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Leader or Character cards \u22121000 power during this turn.[When Attacking] If this Character has 7000 power or more, give up to 1 of your opponent's Leader or Character cards \u22121000 power during this turn."
+}

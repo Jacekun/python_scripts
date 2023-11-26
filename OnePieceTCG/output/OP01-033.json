@@ -1,0 +1,14 @@
+{
+    "Name": "Izo",
+    "Set": "OP01-033",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-033.png?231031",
+    "Cost": "3",
+    "Power": "3000",
+    "Color": "Green",
+    "Counter": "2000",
+    "Attribute": "Ranged",
+    "Feature": "Land of Wano/Former Whitebeard Pirates",
+    "Text": "Effect[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less."
+}

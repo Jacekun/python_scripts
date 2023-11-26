@@ -1,0 +1,14 @@
+{
+    "Name": "Nami",
+    "Set": "ST01-007",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-007_p1.png?231031",
+    "Cost": "1",
+    "Power": "1000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Straw Hat Crew",
+    "Text": "Effect[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+}

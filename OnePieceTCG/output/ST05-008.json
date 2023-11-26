@@ -1,0 +1,14 @@
+{
+    "Name": "Shiki",
+    "Set": "ST05-008",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-008.png?231031",
+    "Cost": "6",
+    "Power": "7000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "FILM/Golden Lion Pirates",
+    "Text": "EffectIf you have 8 or more DON!! cards on your field, this Character cannot be K.O.'d in battle."
+}

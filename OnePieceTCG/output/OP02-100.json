@@ -1,0 +1,14 @@
+{
+    "Name": "Jango",
+    "Set": "OP02-100",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-100.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Navy",
+    "Text": "EffectIf you have [Fullbody], this Character cannot be K.O.'d in battle."
+}

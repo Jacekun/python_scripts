@@ -1,0 +1,14 @@
+{
+    "Name": "Enies Lobby",
+    "Set": "OP03-098",
+    "Rarity": "C",
+    "Type": "STAGE",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-098.png?231031",
+    "Cost": "2",
+    "Power": "-",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "World Government",
+    "Text": "Effect[Activate: Main] You may rest this Stage: If your Leader's type includes \"CP\", give up to 1 of your opponent's Characters \u22122 cost during this turn."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Ann",
+    "Set": "ST05-003",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-003.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "FILM/The Pirates Fest",
+    "Text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+}

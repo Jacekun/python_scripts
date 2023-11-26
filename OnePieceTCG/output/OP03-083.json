@@ -1,0 +1,14 @@
+{
+    "Name": "Corgy",
+    "Set": "OP03-083",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-083.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "World Government",
+    "Text": "Effect[On Play] Look at 5 cards from the top of your deck and trash up to 2 cards. Then, place the rest at the bottom of your deck in any order."
+}

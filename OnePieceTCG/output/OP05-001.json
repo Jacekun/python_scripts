@@ -1,0 +1,14 @@
+{
+    "Name": "Sabo",
+    "Set": "OP05-001",
+    "Rarity": "L",
+    "Type": "LEADER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-001_p1.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Red/Black",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "Revolutionary Army",
+    "Text": "Effect[DON!! x1] [Opponent's Turn] [Once Per Turn] If your Character with 5000 power or more would be K.O.'d, you may give that Character \u22121000 power during this turn instead of that Character being K.O.'d."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Zephyr",
+    "Set": "OP02-072",
+    "Rarity": "L",
+    "Type": "LEADER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-072_p1.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Purple/Black",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "FILM/Neo Navy",
+    "Text": "Effect[When Attacking] DON!! \u22124 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, this Leader gains +1000 power during this turn."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Kaido",
+    "Set": "OP01-094",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-094_p1.png?231031",
+    "Cost": "10",
+    "Power": "12000",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "The Four Emperors/Animal Kingdom Pirates",
+    "Text": "Effect[On Play] DON!! \u22126 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} type, K.O. all Characters other than this Character."
+}

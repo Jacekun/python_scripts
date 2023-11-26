@@ -1,0 +1,14 @@
+{
+    "Name": "Rakuyo",
+    "Set": "OP02-019",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-019.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Whitebeard Pirates",
+    "Text": "Effect[DON!! x1] [Your Turn] All of your Characters with a type including \"Whitebeard Pirates\" gain +1000 power."
+}

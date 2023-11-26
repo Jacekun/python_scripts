@@ -1,0 +1,14 @@
+{
+    "Name": "Bell-m\u00e8re",
+    "Set": "OP02-112",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-112.png?231031",
+    "Cost": "1",
+    "Power": "1000",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Ranged",
+    "Feature": "Navy",
+    "Text": "Effect[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters \u22121 cost during this turn. Then, up to 1 of your Leader or Character cards gains +1000 power during this turn."
+}

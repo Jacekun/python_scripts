@@ -1,0 +1,14 @@
+{
+    "Name": "Hina",
+    "Set": "OP05-050",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-050.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Navy",
+    "Text": "Effect[On Play] Draw 1 card if you have 5 or less cards in your hand."
+}

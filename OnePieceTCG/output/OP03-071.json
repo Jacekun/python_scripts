@@ -1,0 +1,14 @@
+{
+    "Name": "Rob Lucci",
+    "Set": "OP03-071",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-071.png?231031",
+    "Cost": "5",
+    "Power": "6000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Water Seven/Galley-La Company",
+    "Text": "Effect[When Attacking] DON!! \u22121 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less."
+}

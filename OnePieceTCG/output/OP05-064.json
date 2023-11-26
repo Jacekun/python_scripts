@@ -1,0 +1,14 @@
+{
+    "Name": "Killer",
+    "Set": "OP05-064",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-064.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Kid Pirates",
+    "Text": "Effect[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Kid Pirates} type card other than [Killer] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

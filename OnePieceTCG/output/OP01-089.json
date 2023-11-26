@@ -1,0 +1,14 @@
+{
+    "Name": "Crescent Cutlass",
+    "Set": "OP01-089",
+    "Rarity": "C",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-089.png?231031",
+    "Cost": "3",
+    "Power": "-",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "The Seven Warlords of the Sea/Baroque Works",
+    "Text": "Effect[Counter] If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 5 or less to the owner's hand."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Kyoshirou",
+    "Set": "OP01-095",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-095.png?231031",
+    "Cost": "5",
+    "Power": "6000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Land of Wano",
+    "Text": "Effect[On Play] Draw 1 card if you have 8 or more DON!! cards on your field."
+}

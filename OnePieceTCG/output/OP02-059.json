@@ -1,0 +1,14 @@
+{
+    "Name": "Boa Hancock",
+    "Set": "OP02-059",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-059_p1.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Impel Down/The Seven Warlords of the Sea/Kuja Pirates",
+    "Text": "Effect[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand."
+}

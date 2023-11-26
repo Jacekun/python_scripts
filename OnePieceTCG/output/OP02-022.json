@@ -1,0 +1,14 @@
+{
+    "Name": "Whitebeard Pirates",
+    "Set": "OP02-022",
+    "Rarity": "UC",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-022.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Whitebeard Pirates",
+    "Text": "Effect[Main] Look at 5 cards from the top of your deck; reveal up to 1 Character card with a type including \"Whitebeard Pirates\" and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

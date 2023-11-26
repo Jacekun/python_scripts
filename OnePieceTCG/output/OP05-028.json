@@ -1,0 +1,14 @@
+{
+    "Name": "Donquixote Doflamingo",
+    "Set": "OP05-028",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-028.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Ranged",
+    "Feature": "Donquixote Pirates",
+    "Text": "Effect[Activate: Main] You may trash this Character: K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less."
+}

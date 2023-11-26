@@ -1,0 +1,14 @@
+{
+    "Name": "Killer",
+    "Set": "ST02-005",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-005.png?231031",
+    "Cost": "3",
+    "Power": "3000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Supernovas/Kid Pirates",
+    "Text": "Effect[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less."
+}

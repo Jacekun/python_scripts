@@ -1,0 +1,14 @@
+{
+    "Name": "Helmeppo",
+    "Set": "P-020",
+    "Rarity": "P",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-020.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "FILM/Navy",
+    "Text": "Effect[On Play] Up to 1 of your Leader or Character cards gains +1000 power during this turn."
+}

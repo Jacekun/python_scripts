@@ -1,0 +1,14 @@
+{
+    "Name": "Marshall.D.Teach",
+    "Set": "ST03-014",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-014_p1.png?231031",
+    "Cost": "4",
+    "Power": "4000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "The Seven Warlords of the Sea/Blackbeard Pirates",
+    "Text": "Effect[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand."
+}

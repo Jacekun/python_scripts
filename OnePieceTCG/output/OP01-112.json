@@ -1,0 +1,14 @@
+{
+    "Name": "Page One",
+    "Set": "OP01-112",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-112.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Animal Kingdom Pirates",
+    "Text": "Effect[Activate: Main] [Once Per Turn] DON!! \u22121 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character can also attack your opponent's active Characters during this turn."
+}

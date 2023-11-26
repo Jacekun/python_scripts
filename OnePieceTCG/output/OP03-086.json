@@ -1,0 +1,14 @@
+{
+    "Name": "Spandam",
+    "Set": "OP03-086",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-086_p1.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "CP9",
+    "Text": "Effect[On Play] If your Leader's type includes \"CP\", look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"CP\" other than [Spandam] and add it to your hand. Then, trash the rest."
+}

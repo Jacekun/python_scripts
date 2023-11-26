@@ -1,0 +1,14 @@
+{
+    "Name": "Bastille",
+    "Set": "OP05-048",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-048.png?231031",
+    "Cost": "5",
+    "Power": "6000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Navy",
+    "Text": "Effect[DON!! x1] [When Attacking] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck."
+}

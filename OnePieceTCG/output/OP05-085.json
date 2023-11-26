@@ -1,0 +1,14 @@
+{
+    "Name": "Nefeltari Cobra",
+    "Set": "OP05-085",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-085.png?231031",
+    "Cost": "2",
+    "Power": "1000",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Alabasta",
+    "Text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Trash 1 card from the top of your deck."
+}

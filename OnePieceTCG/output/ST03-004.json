@@ -1,0 +1,14 @@
+{
+    "Name": "Gecko Moria",
+    "Set": "ST03-004",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-004.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "The Seven Warlords of the Sea/Thriller Bark Pirates",
+    "Text": "Effect[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand."
+}

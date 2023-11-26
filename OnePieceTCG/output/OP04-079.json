@@ -1,0 +1,14 @@
+{
+    "Name": "Orlumbus",
+    "Set": "OP04-079",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-079.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Dressrosa/Yonta Maria Fleet",
+    "Text": "Effect[Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters \u22124 cost during this turn and trash 2 cards from the top of your deck. Then, K.O. 1 of your {Dressrosa} type Characters."
+}

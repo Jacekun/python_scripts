@@ -1,0 +1,14 @@
+{
+    "Name": "Saldeath",
+    "Set": "OP02-074",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-074.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Impel Down",
+    "Text": "EffectYour [Blugori] gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+}

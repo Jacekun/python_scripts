@@ -1,0 +1,14 @@
+{
+    "Name": "Kuroobi",
+    "Set": "OP03-026",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-026.png?231031",
+    "Cost": "4",
+    "Power": "3000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Fish-Man/East Blue/Arlong Pirates",
+    "Text": "Effect[On Play] If your Leader has the {East Blue} type, rest up to 1 of your opponent's Characters."
+}

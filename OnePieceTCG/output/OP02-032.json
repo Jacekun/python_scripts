@@ -1,0 +1,14 @@
+{
+    "Name": "Shishilian",
+    "Set": "OP02-032",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-032.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Minks",
+    "Text": "Effect[On Play] \u2461 (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your {Minks} type Characters with a cost of 5 or less as active."
+}

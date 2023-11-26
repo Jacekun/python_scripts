@@ -1,0 +1,14 @@
+{
+    "Name": "X.Barrels",
+    "Set": "OP05-056",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-056.png?231031",
+    "Cost": "2",
+    "Power": "2000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Former Navy",
+    "Text": "Effect[On Play] You may place 1 of your Characters other than this Character at the bottom of your deck: Draw 1 card."
+}

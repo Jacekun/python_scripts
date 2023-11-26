@@ -1,0 +1,14 @@
+{
+    "Name": "Shachi",
+    "Set": "OP01-044",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-044.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Heart Pirates",
+    "Text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you don't have [Penguin], play up to 1 [Penguin] from your hand."
+}

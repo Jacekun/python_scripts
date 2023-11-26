@@ -1,0 +1,14 @@
+{
+    "Name": "Birdcage",
+    "Set": "OP05-040",
+    "Rarity": "C",
+    "Type": "STAGE",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-040.png?231031",
+    "Cost": "5",
+    "Power": "-",
+    "Color": "Green",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Donquixote Pirates",
+    "Text": "EffectIf your Leader is [Donquixote Doflamingo], all Characters with a cost of 5 or less do not become active in your and your opponent's Refresh Phases.[End of Your Turn] If you have 10 DON!! cards on your field, K.O. all rested Characters with a cost of 5 or less. Then, trash this Stage."
+}

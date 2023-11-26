@@ -1,0 +1,14 @@
+{
+    "Name": "Nami",
+    "Set": "OP03-030",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-030.png?231031",
+    "Cost": "2",
+    "Power": "2000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "East Blue/Arlong Pirates",
+    "Text": "Effect[On Play] Look at 5 cards from the top of your deck; reveal up to 1 green {East Blue} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

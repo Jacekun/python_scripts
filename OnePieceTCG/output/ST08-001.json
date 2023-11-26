@@ -1,0 +1,14 @@
+{
+    "Name": "Monkey.D.Luffy",
+    "Set": "ST08-001",
+    "Rarity": "L",
+    "Type": "LEADER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-001.png?231031",
+    "Cost": "5",
+    "Power": "5000",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Straw Hat Crew",
+    "Text": "Effect[Your Turn] When a Character is K.O.'d, give up to 1 rested DON!! card to this Leader."
+}

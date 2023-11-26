@@ -1,0 +1,14 @@
+{
+    "Name": "Corrida Coliseum",
+    "Set": "OP04-096",
+    "Rarity": "C",
+    "Type": "STAGE",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-096.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Dressrosa",
+    "Text": "EffectIf your Leader has the {Dressrosa} type, your {Dressrosa} type Characters can attack Characters on the turn in which they are played."
+}

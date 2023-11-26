@@ -1,0 +1,14 @@
+{
+    "Name": "Nojiko",
+    "Set": "OP03-048",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-048.png?231031",
+    "Cost": "2",
+    "Power": "-",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "East Blue",
+    "Text": "Effect[On Play] If your Leader is [Nami], return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand."
+}

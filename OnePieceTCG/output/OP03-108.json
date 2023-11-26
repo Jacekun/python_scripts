@@ -1,0 +1,14 @@
+{
+    "Name": "Charlotte Cracker",
+    "Set": "OP03-108",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-108_p1.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Big Mom Pirates",
+    "Text": "Effect[DON!! x1] If you have less Life cards than your opponent, this Character gains [Double Attack] and +1000 power.(This card deals 2 damage.)"
+}

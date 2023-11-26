@@ -1,0 +1,14 @@
+{
+    "Name": "Byrnndi World",
+    "Set": "OP02-082",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-082.png?231031",
+    "Cost": "8",
+    "Power": "8000",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "World Pirates",
+    "Text": "Effect[Activate: Main] DON!! \u22128 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +792000 power during this turn."
+}

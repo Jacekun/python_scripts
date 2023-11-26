@@ -1,0 +1,14 @@
+{
+    "Name": "Bartolomeo",
+    "Set": "P-029",
+    "Rarity": "P",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-029.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "FILM/Supernovas/Barto Club",
+    "Text": "Effect[End of Your Turn] You may rest this Character: Set up to 1 of your {FILM} type Characters other than [Bartolomeo] as active."
+}

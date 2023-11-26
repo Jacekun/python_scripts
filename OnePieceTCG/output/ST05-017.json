@@ -1,0 +1,14 @@
+{
+    "Name": "Union Armada",
+    "Set": "ST05-017",
+    "Rarity": "C",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-017.png?231031",
+    "Cost": "2",
+    "Power": "-",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "FILM/The Pirates Fest",
+    "Text": "Effect[Counter] Up to 1 of your {FILM} type Leader or Character cards gains +4000 power during this battle. If that card is a Character, that Character cannot be K.O.'d during this turn."
+}

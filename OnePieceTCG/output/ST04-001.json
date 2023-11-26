@@ -1,0 +1,14 @@
+{
+    "Name": "Kaido",
+    "Set": "ST04-001",
+    "Rarity": "L",
+    "Type": "LEADER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-001.png?231031",
+    "Cost": "5",
+    "Power": "5000",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "The Four Emperors/Animal Kingdom Pirates",
+    "Text": "Effect[Activate: Main] [Once Per Turn] DON!! \u22127 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Trash up to 1 of your opponent's Life cards."
+}

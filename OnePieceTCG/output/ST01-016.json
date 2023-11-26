@@ -1,0 +1,14 @@
+{
+    "Name": "Diable Jambe",
+    "Set": "ST01-016",
+    "Rarity": "C",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-016.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Straw Hat Crew",
+    "Text": "Effect[Main] Select up to 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn."
+}

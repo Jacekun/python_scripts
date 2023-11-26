@@ -1,0 +1,14 @@
+{
+    "Name": "Kurozumi Semimaru",
+    "Set": "OP01-099",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-099.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Land of Wano/Kurozumi Clan",
+    "Text": "Effect{Kurozumi Clan} type Characters other than your [Kurozumi Semimaru] cannot be K.O.'d in battle."
+}

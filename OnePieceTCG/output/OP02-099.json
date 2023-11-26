@@ -1,0 +1,14 @@
+{
+    "Name": "Sakazuki",
+    "Set": "OP02-099",
+    "Rarity": "SP CARD",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-099_p2.png?231031",
+    "Cost": "6",
+    "Power": "7000",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "Navy",
+    "Text": "Effect[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Belo Betty",
+    "Set": "OP05-002",
+    "Rarity": "L",
+    "Type": "LEADER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-002_p1.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Red/Yellow",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "Revolutionary Army",
+    "Text": "Effect[Activate: Main] [Once Per Turn] You may trash 1 {Revolutionary Army} type card from your hand: Up to 3 of your {Revolutionary Army} type Characters or Characters with a [Trigger] gain +3000 power during this turn."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Tony Tony.Chopper",
+    "Set": "OP01-015",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-015.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Animal/Straw Hat Crew",
+    "Text": "Effect[DON!! x1] [When Attacking] You may trash 1 card from your hand: Add up to 1 {Straw Hat Crew} type Character card other than [Tony Tony.Chopper] with a cost of 4 or less from your trash to your hand."
+}

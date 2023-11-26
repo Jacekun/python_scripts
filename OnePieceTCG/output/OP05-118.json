@@ -1,0 +1,14 @@
+{
+    "Name": "Kaido",
+    "Set": "OP05-118",
+    "Rarity": "SEC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-118_p1.png?231031",
+    "Cost": "10",
+    "Power": "12000",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "The Four Emperors/Animal Kingdom Pirates",
+    "Text": "Effect[On Play] Draw 4 cards if your opponent has 3 or less Life cards."
+}

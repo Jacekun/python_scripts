@@ -1,0 +1,14 @@
+{
+    "Name": "Issho",
+    "Set": "OP05-042",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-042.png?231031",
+    "Cost": "6",
+    "Power": "6000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Navy",
+    "Text": "Effect[On Play] Up to 1 of your opponent's Characters with a cost of 7 or less cannot attack until the start of your next turn."
+}

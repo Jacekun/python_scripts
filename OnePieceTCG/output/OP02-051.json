@@ -1,0 +1,14 @@
+{
+    "Name": "Emporio.Ivankov",
+    "Set": "OP02-051",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-051_p1.png?231031",
+    "Cost": "7",
+    "Power": "7000",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "Impel Down/Revolutionary Army",
+    "Text": "Effect[On Play] Draw card(s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand."
+}

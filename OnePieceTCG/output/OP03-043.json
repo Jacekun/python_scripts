@@ -1,0 +1,14 @@
+{
+    "Name": "Gaimon",
+    "Set": "OP03-043",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-043.png?231031",
+    "Cost": "2",
+    "Power": "-",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "East Blue",
+    "Text": "EffectWhen you deal damage to your opponent's Life, you may trash 3 cards from the top of your deck. If you do, trash this Character."
+}

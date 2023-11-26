@@ -1,0 +1,14 @@
+{
+    "Name": "Smoker",
+    "Set": "OP02-093",
+    "Rarity": "L",
+    "Type": "LEADER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093_p1.png?231031",
+    "Cost": "5",
+    "Power": "5000",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "Navy",
+    "Text": "Effect[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters \u22121 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn."
+}

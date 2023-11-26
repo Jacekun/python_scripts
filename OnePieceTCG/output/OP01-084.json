@@ -1,0 +1,14 @@
+{
+    "Name": "Mr.2.Bon.Kurei(Bentham)",
+    "Set": "OP01-084",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-084.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Blue",
+    "Counter": "2000",
+    "Attribute": "Strike",
+    "Feature": "Baroque Works",
+    "Text": "Effect[DON!! x1] [When Attacking] Look at 5 cards from the top of your deck; reveal up to 1 {Baroque Works} type Event card and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

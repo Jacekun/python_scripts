@@ -1,0 +1,14 @@
+{
+    "Name": "Nico Robin",
+    "Set": "OP01-017",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-017_p1.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Straw Hat Crew",
+    "Text": "Effect[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Hanger",
+    "Set": "OP04-050",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-050.png?231031",
+    "Cost": "2",
+    "Power": "-",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "East Blue",
+    "Text": "Effect[Activate: Main] You may trash 1 card from your hand and rest this Character: Draw 1 card."
+}

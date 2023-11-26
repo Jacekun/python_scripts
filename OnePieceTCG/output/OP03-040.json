@@ -1,0 +1,14 @@
+{
+    "Name": "Nami",
+    "Set": "OP03-040",
+    "Rarity": "L",
+    "Type": "LEADER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-040_p1.png?231031",
+    "Cost": "5",
+    "Power": "5000",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "Wisdom",
+    "Feature": "East Blue",
+    "Text": "EffectWhen your deck is reduced to 0, you win the game instead of losing, according to the rules.[DON!! x1] When this Leader's attack deals damage to your opponent's Life, you may trash 1 card from the top of your deck."
+}

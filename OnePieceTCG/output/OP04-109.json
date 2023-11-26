@@ -1,0 +1,14 @@
+{
+    "Name": "Tonoyasu",
+    "Set": "OP04-109",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-109.png?231031",
+    "Cost": "2",
+    "Power": "2000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Land of Wano",
+    "Text": "Effect[Activate: Main] You may trash this Character: Up to 1 of your {Land of Wano} type Leader or Character cards gains +3000 power during this turn."
+}

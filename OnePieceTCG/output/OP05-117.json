@@ -1,0 +1,14 @@
+{
+    "Name": "Upper Yard",
+    "Set": "OP05-117",
+    "Rarity": "UC",
+    "Type": "STAGE",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-117.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Yellow",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Sky Island",
+    "Text": "Effect[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Sky Island} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

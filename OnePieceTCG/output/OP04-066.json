@@ -1,0 +1,14 @@
+{
+    "Name": "Miss.Valentine(Mikita)",
+    "Set": "OP04-066",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-066.png?231031",
+    "Cost": "2",
+    "Power": "2000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Baroque Works",
+    "Text": "Effect[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Baroque Works\" and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

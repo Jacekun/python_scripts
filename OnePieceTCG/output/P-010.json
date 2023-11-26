@@ -1,0 +1,14 @@
+{
+    "Name": "Kaido",
+    "Set": "P-010",
+    "Rarity": "P",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-010.png?231031",
+    "Cost": "8",
+    "Power": "9000",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "The Four Emperors/Animal Kingdom Pirates",
+    "Text": "Effect[End of Your Turn] Add 1 DON!! card from your DON!! deck and set it as active."
+}

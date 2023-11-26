@@ -1,0 +1,14 @@
+{
+    "Name": "Onigashima Island",
+    "Set": "ST04-017",
+    "Rarity": "C",
+    "Type": "STAGE",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-017.png?231031",
+    "Cost": "3",
+    "Power": "-",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Animal Kingdom Pirates",
+    "Text": "Effect[Activate: Main] You may rest this Stage: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it."
+}

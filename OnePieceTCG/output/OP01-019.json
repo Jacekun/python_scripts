@@ -1,0 +1,14 @@
+{
+    "Name": "Bartolomeo",
+    "Set": "OP01-019",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-019.png?231031",
+    "Cost": "2",
+    "Power": "2000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Supernovas/Barto Club",
+    "Text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [Opponent's Turn] This Character gains +3000 power."
+}

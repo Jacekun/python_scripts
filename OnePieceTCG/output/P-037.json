@@ -1,0 +1,14 @@
+{
+    "Name": "Monkey.D.Luffy",
+    "Set": "P-037",
+    "Rarity": "P",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-037.png?231031",
+    "Cost": "2",
+    "Power": "4000",
+    "Color": "Green",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Straw Hat Crew",
+    "Text": "Effect[When Attacking] If you have 2 or more rested Characters, this Character gains +1000 power during this turn."
+}

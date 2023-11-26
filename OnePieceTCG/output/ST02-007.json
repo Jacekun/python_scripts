@@ -1,0 +1,14 @@
+{
+    "Name": "Jewelry Bonney",
+    "Set": "ST02-007",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-007.png?231031",
+    "Cost": "1",
+    "Power": "1000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Supernovas/Bonney Pirates",
+    "Text": "Effect[Activate: Main] \u2780 (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

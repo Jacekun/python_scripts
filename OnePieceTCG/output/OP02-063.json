@@ -1,0 +1,14 @@
+{
+    "Name": "Mr.1(Daz.Bonez)",
+    "Set": "OP02-063",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-063.png?231031",
+    "Cost": "1",
+    "Power": "1000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Impel Down/Former Baroque Works",
+    "Text": "Effect[On Play] Add up to 1 blue Event card with a cost of 1 from your trash to your hand."
+}

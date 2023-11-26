@@ -1,0 +1,14 @@
+{
+    "Name": "Buggy",
+    "Set": "OP03-008",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-008.png?231031",
+    "Cost": "1",
+    "Power": "3000",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "Slash",
+    "Feature": "Buggy Pirates",
+    "Text": "EffectThis Character cannot be K.O.'d in battle by  attribute cards.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

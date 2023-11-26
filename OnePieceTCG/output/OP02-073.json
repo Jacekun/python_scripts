@@ -1,0 +1,14 @@
+{
+    "Name": "Little Sadi",
+    "Set": "OP02-073",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-073_p1.png?231031",
+    "Cost": "3",
+    "Power": "3000",
+    "Color": "Purple",
+    "Counter": "2000",
+    "Attribute": "Wisdom",
+    "Feature": "Impel Down",
+    "Text": "Effect[On Play] Play up to 1 {Jailer Beast} type Character card from your hand."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Thousand Sunny",
+    "Set": "ST01-017",
+    "Rarity": "C",
+    "Type": "STAGE",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-017.png?231031",
+    "Cost": "2",
+    "Power": "-",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Straw Hat Crew",
+    "Text": "Effect[Activate: Main] You may rest this Stage: Up to 1 {Straw Hat Crew} type Leader or Character card on your field gains +1000 power during this turn."
+}

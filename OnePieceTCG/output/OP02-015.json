@@ -1,0 +1,14 @@
+{
+    "Name": "Makino",
+    "Set": "OP02-015",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-015.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Red",
+    "Counter": "2000",
+    "Attribute": "Wisdom",
+    "Feature": "Windmill Village",
+    "Text": "Effect[Activate: Main] You may rest this Character: Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn."
+}

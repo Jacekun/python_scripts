@@ -1,0 +1,14 @@
+{
+    "Name": "Shirahoshi",
+    "Set": "OP05-082",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-082.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Black",
+    "Counter": "2000",
+    "Attribute": "Wisdom",
+    "Feature": "Merfolk",
+    "Text": "Effect[Activate: Main] You may rest this Character and place 2 cards from your trash at the bottom of your deck in any order: If your opponent has 6 or more cards in their hand, your opponent trashes 1 card from their hand."
+}

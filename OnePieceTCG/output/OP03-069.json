@@ -1,0 +1,14 @@
+{
+    "Name": "Minorhinoceros",
+    "Set": "OP03-069",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-069.png?231031",
+    "Cost": "3",
+    "Power": "5000",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Impel Down/Jailer Beast",
+    "Text": "Effect[On K.O.] If your Leader has the {Impel Down} type, draw 2 cards and trash 1 card from your hand."
+}

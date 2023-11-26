@@ -1,0 +1,14 @@
+{
+    "Name": "Happiness Punch",
+    "Set": "OP04-017",
+    "Rarity": "C",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-017.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Alabasta/Straw Hat Crew",
+    "Text": "Effect[Counter] Give up to 1 of your opponent's Leader or Character cards \u22122000 power during this turn. Then, if your Leader is active, give up to 1 of your opponent's Leader or Character cards \u22121000 power during this turn."
+}

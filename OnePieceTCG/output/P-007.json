@@ -1,0 +1,14 @@
+{
+    "Name": "Monkey.D.Luffy",
+    "Set": "P-007",
+    "Rarity": "P",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-007.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Supernovas/Straw Hat Crew",
+    "Text": "Effect[DON!! x1] This Character cannot be K.O.'d in battle by \uff1cStrike\uff1e attribute Leaders or Characters."
+}

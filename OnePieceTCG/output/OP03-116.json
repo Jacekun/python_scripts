@@ -1,0 +1,14 @@
+{
+    "Name": "Shirahoshi",
+    "Set": "OP03-116",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-116.png?231031",
+    "Cost": "5",
+    "Power": "-",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Merfolk",
+    "Text": "Effect[On Play] Draw 3 cards and trash 2 cards from your hand."
+}

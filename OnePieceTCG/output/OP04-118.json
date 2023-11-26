@@ -1,0 +1,14 @@
+{
+    "Name": "Nefeltari Vivi",
+    "Set": "OP04-118",
+    "Rarity": "SEC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-118_p1.png?231031",
+    "Cost": "7",
+    "Power": "4000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Alabasta",
+    "Text": "EffectAll of your red Characters with a cost of 3 or more other than this Character gain [Rush].(This card can attack on the turn in which it is played.)"
+}

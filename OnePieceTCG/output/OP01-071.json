@@ -1,0 +1,14 @@
+{
+    "Name": "Jinbe",
+    "Set": "OP01-071",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-071.png?231031",
+    "Cost": "4",
+    "Power": "2000",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Fish-Man/Straw Hat Crew",
+    "Text": "Effect[On Play] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck."
+}

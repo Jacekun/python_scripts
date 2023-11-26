@@ -1,0 +1,14 @@
+{
+    "Name": "Jango",
+    "Set": "OP03-028",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-028.png?231031",
+    "Cost": "5",
+    "Power": "6000",
+    "Color": "Green",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "East Blue/Black Cat Pirates",
+    "Text": "Effect[On Play] Choose one:\u2022 Set up to 1 of your {East Blue} type Leader or Character cards with a cost of 6 or less as active.\u2022 Rest this Character and up to 1 of your opponent's Characters."
+}

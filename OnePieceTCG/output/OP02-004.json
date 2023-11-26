@@ -1,0 +1,14 @@
+{
+    "Name": "Edward.Newgate",
+    "Set": "OP02-004",
+    "Rarity": "SP CARD",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-004_p2.png?231031",
+    "Cost": "9",
+    "Power": "10000",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "The Four Emperors/Whitebeard Pirates",
+    "Text": "Effect[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn.[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Smoker",
+    "Set": "ST06-004",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-004.png?231031",
+    "Cost": "5",
+    "Power": "7000",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "Navy",
+    "Text": "EffectThis Character cannot be K.O.'d by effects.[DON!! x1] If there is a Character with a cost of 0, this Character gains [Double Attack].(This card deals 2 damage.)"
+}

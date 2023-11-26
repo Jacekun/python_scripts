@@ -1,0 +1,14 @@
+{
+    "Name": "Ohm",
+    "Set": "OP05-101",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-101.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Sky Island/Vassals",
+    "Text": "EffectIf you have 2 or less Life cards, this Character gains +1000 power.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Holly] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Holly] from your hand."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Pagaya",
+    "Set": "OP05-109",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-109.png?231031",
+    "Cost": "1",
+    "Power": "1000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Sky Island",
+    "Text": "Effect[Once Per Turn] When a [Trigger] activates, draw 2 cards and trash 2 cards from your hand."
+}

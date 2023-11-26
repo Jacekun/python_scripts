@@ -1,0 +1,14 @@
+{
+    "Name": "Conis",
+    "Set": "OP05-104",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-104.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Yellow",
+    "Counter": "2000",
+    "Attribute": "Wisdom",
+    "Feature": "Sky Island",
+    "Text": "Effect[On Play] You may place 1 of your Stages at the bottom of your deck: Draw 1 card and trash 1 card from your hand."
+}

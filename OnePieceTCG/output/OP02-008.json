@@ -1,0 +1,14 @@
+{
+    "Name": "Jozu",
+    "Set": "OP02-008",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-008.png?231031",
+    "Cost": "4",
+    "Power": "4000",
+    "Color": "Red",
+    "Counter": "2000",
+    "Attribute": "Strike",
+    "Feature": "Whitebeard Pirates",
+    "Text": "Effect[DON!! x1] If you have 2 or less Life cards and your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush].(This card can attack on the turn in which it is played.)"
+}

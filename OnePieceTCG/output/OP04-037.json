@@ -1,0 +1,14 @@
+{
+    "Name": "Flapping Thread",
+    "Set": "OP04-037",
+    "Rarity": "UC",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-037.png?231031",
+    "Cost": "2",
+    "Power": "-",
+    "Color": "Green",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "The Seven Warlords of the Sea/Donquixote Pirates",
+    "Text": "Effect[Counter] If your Leader has the {Donquixote Pirates} type, up to 1 of your Leader or Character cards gains +2000 power during this turn."
+}

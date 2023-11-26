@@ -1,0 +1,14 @@
+{
+    "Name": "Hera",
+    "Set": "OP04-111",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-111.png?231031",
+    "Cost": "5",
+    "Power": "3000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Big Mom Pirates/Homies",
+    "Text": "Effect[Activate: Main] You may trash 1 of your {Homies} type Characters other than this Character and rest this Character: Set up to 1 of your [Charlotte Linlin] Characters as active."
+}

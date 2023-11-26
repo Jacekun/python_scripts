@@ -1,0 +1,14 @@
+{
+    "Name": "Arlong",
+    "Set": "OP01-063",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-063.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Fish-Man/Arlong Pirates",
+    "Text": "Effect[DON!! x1] [Activate: Main] You may rest this Character: Choose 1 card from your opponent's hand; your opponent reveals that card. If the revealed card is an Event, place up to 1 card from your opponent's Life area at the bottom of the owner's deck."
+}

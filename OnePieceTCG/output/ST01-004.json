@@ -1,0 +1,14 @@
+{
+    "Name": "Sanji",
+    "Set": "ST01-004",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-004_p2.png?231031",
+    "Cost": "2",
+    "Power": "4000",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Straw Hat Crew",
+    "Text": "Effect[DON!! x2] This Character gains [Rush].(This card can attack on the turn in which it is played.)"
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Gin",
+    "Set": "OP03-024",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-024_p1.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "East Blue/Krieg Pirates",
+    "Text": "Effect[On Play] If your Leader has the {East Blue} type, rest up to 2 of your opponent's Characters with a cost of 4 or less."
+}

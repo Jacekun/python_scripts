@@ -1,0 +1,14 @@
+{
+    "Name": "Fullbody",
+    "Set": "OP02-111",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-111.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Navy",
+    "Text": "Effect[When Attacking] If you have [Jango], this card gains +3000 power during this battle."
+}

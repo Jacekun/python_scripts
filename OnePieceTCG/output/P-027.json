@@ -1,0 +1,14 @@
+{
+    "Name": "General Franky",
+    "Set": "P-027",
+    "Rarity": "P",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-027.png?231031",
+    "Cost": "2",
+    "Power": "4000",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "Ranged",
+    "Feature": "Straw Hat Crew",
+    "Text": "EffectAlso treat this card's name as [Franky] according to the rules.[Opponent's Turn] All of your Characters with 3000 base power or less gain +1000 power."
+}

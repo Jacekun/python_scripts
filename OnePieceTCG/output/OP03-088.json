@@ -1,0 +1,14 @@
+{
+    "Name": "Fukurou",
+    "Set": "OP03-088",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-088.png?231031",
+    "Cost": "3",
+    "Power": "3000",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "CP9",
+    "Text": "EffectThis Character cannot be K.O.'d by effects.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+}

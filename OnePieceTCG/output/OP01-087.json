@@ -1,0 +1,14 @@
+{
+    "Name": "Officer Agents",
+    "Set": "OP01-087",
+    "Rarity": "C",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-087.png?231031",
+    "Cost": "2",
+    "Power": "-",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Baroque Works",
+    "Text": "Effect[Counter] Play up to 1 {Baroque Works} type Character card with a cost of 3 or less from your hand."
+}

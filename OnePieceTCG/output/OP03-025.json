@@ -1,0 +1,14 @@
+{
+    "Name": "Krieg",
+    "Set": "OP03-025",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-025_p1.png?231031",
+    "Cost": "6",
+    "Power": "7000",
+    "Color": "Green",
+    "Counter": "-",
+    "Attribute": "Ranged",
+    "Feature": "East Blue/Krieg Pirates",
+    "Text": "Effect[On Play] You may trash 1 card from your hand: K.O. up to 2 of your opponent's rested Characters with a cost of 4 or less.[DON!! x1] This Character gains [Double Attack].(This card deals 2 damage.)"
+}

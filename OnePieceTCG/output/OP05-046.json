@@ -1,0 +1,14 @@
+{
+    "Name": "Dalmatian",
+    "Set": "OP05-046",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-046.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Navy",
+    "Text": "Effect[On K.O.] Draw 1 card and place 1 card from your hand at the bottom of your deck."
+}

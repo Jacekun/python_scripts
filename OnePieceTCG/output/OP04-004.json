@@ -1,0 +1,14 @@
+{
+    "Name": "Karoo",
+    "Set": "OP04-004",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-004.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Animal/Alabasta",
+    "Text": "Effect[Activate: Main] You may rest this Character: Give up to 1 rested DON!! card to each of your {Alabasta} type Characters."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Leo",
+    "Set": "OP04-091",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-091.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "The Tontattas/Dressrosa",
+    "Text": "Effect[On Play] You may rest your 1 Leader: If your Leader has the {Dressrosa} type, K.O. up to 1 of your opponent's Characters with a cost of 1 or less. Then, trash 2 cards from the top of your deck."
+}

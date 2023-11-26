@@ -1,0 +1,14 @@
+{
+    "Name": "Blamenco",
+    "Set": "OP03-011",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-011.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Whitebeard Pirates",
+    "Text": "Effect[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters \u22122000 power during this turn."
+}

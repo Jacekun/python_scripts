@@ -1,0 +1,14 @@
+{
+    "Name": "Charlotte Pudding",
+    "Set": "OP03-112",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-112_p1.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Big Mom Pirates",
+    "Text": "Effect[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or {Big Mom Pirates} type card other than [Charlotte Pudding] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Charlotte Smoothie",
+    "Set": "OP03-110",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-110.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Big Mom Pirates",
+    "Text": "Effect[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power during this battle."
+}

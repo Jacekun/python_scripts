@@ -1,0 +1,14 @@
+{
+    "Name": "New Kama Land",
+    "Set": "OP02-070",
+    "Rarity": "C",
+    "Type": "STAGE",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-070.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Impel Down",
+    "Text": "Effect[Activate: Main] You may rest this Stage: If your Leader is [Emporio.Ivankov], draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Chinjao",
+    "Set": "OP04-086",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-086.png?231031",
+    "Cost": "5",
+    "Power": "6000",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Dressrosa/Happosui Army",
+    "Text": "Effect[DON!! x1] When this Character battles and K.O.'s your opponent's Character, draw 2 cards and trash 2 cards from your hand."
+}

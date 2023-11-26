@@ -1,0 +1,14 @@
+{
+    "Name": "Kouzuki Hiyori",
+    "Set": "OP04-103",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-103.png?231031",
+    "Cost": "2",
+    "Power": "-",
+    "Color": "Yellow",
+    "Counter": "2000",
+    "Attribute": "Wisdom",
+    "Feature": "Land of Wano/Kouzuki Clan",
+    "Text": "Effect[On Play] Up to 1 of your {Land of Wano} type Leader or Character cards gains +1000 power during this turn."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Carrot",
+    "Set": "OP01-009",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-009.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Minks",
+    "Text": "Effect[Trigger] Play this card."
+}

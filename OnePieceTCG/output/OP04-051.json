@@ -1,0 +1,14 @@
+{
+    "Name": "Who's.Who",
+    "Set": "OP04-051",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-051_p1.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Animal Kingdom Pirates",
+    "Text": "Effect[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Who's.Who] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

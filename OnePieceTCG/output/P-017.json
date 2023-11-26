@@ -1,0 +1,14 @@
+{
+    "Name": "Trafalgar Law",
+    "Set": "P-017",
+    "Rarity": "P",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-017.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "FILM/Supernovas/Heart Pirates",
+    "Text": "Effect[On Play] Give up to 1 of your opponent's Characters \u22122000 power during this turn."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Komurasaki",
+    "Set": "OP01-042",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-042.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Land of Wano/Kouzuki Clan",
+    "Text": "Effect[On Play] \u2462 (You may rest the specified number of DON!! cards in your cost area.): If your Leader is [Kouzuki Oden], set up to 1 of your {Land of Wano} type Character cards with a cost of 3 or less as active."
+}

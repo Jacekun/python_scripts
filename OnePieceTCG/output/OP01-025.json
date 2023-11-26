@@ -1,0 +1,14 @@
+{
+    "Name": "Roronoa Zoro",
+    "Set": "OP01-025",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-025_p2.png?231031",
+    "Cost": "3",
+    "Power": "5000",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "Slash",
+    "Feature": "Supernovas/Straw Hat Crew",
+    "Text": "Effect[Rush] (This card can attack on the turn in which it is played.)"
+}

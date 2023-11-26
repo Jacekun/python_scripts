@@ -1,0 +1,14 @@
+{
+    "Name": "Bartholomew Kuma",
+    "Set": "OP02-057",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-057.png?231031",
+    "Cost": "3",
+    "Power": "3000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "The Seven Warlords of the Sea/Revolutionary Army",
+    "Text": "Effect[On Play] Look at 2 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order."
+}

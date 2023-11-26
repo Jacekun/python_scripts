@@ -1,0 +1,14 @@
+{
+    "Name": "Boa Hancock",
+    "Set": "OP01-078",
+    "Rarity": "SP CARD",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-078_p2.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "The Seven Warlords of the Sea/Kuja Pirates",
+    "Text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [When Attacking]/[On Block] Draw 1 card if you have 5 or less cards in your hand."
+}

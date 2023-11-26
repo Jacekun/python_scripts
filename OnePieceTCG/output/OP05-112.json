@@ -1,0 +1,14 @@
+{
+    "Name": "Captain McKinley",
+    "Set": "OP05-112",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-112.png?231031",
+    "Cost": "3",
+    "Power": "3000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Sky Island",
+    "Text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Play up to 1 {Sky Island} type Character card with a cost of 1 from your hand."
+}

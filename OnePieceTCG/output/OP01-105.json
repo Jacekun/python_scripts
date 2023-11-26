@@ -1,0 +1,14 @@
+{
+    "Name": "Bao Huang",
+    "Set": "OP01-105",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-105.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Animal Kingdom Pirates/SMILE",
+    "Text": "Effect[On Play] Choose 2 cards from your opponent's hand; your opponent reveals those cards."
+}

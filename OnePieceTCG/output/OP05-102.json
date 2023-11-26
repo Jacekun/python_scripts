@@ -1,0 +1,14 @@
+{
+    "Name": "Gedatsu",
+    "Set": "OP05-102",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-102_p1.png?231031",
+    "Cost": "5",
+    "Power": "6000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Sky Island/Vassals",
+    "Text": "Effect[On Play] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards."
+}

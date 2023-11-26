@@ -1,0 +1,14 @@
+{
+    "Name": "Caribou",
+    "Set": "OP01-007",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-007.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Supernovas/Caribou Pirates",
+    "Text": "Effect[On K.O.] K.O. up to 1 of your opponent's Characters with 4000 power or less."
+}

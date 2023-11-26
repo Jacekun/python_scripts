@@ -1,0 +1,14 @@
+{
+    "Name": "Kaido",
+    "Set": "P-005",
+    "Rarity": "P",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-005.png?231031",
+    "Cost": "7",
+    "Power": "8000",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "The Four Emperors/Animal Kingdom Pirates",
+    "Text": "Effect[Activate: Main]  DON!! \u22122 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)"
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Raizo",
+    "Set": "OP01-052",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-052_p1.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Land of Wano/The Akazaya Nine",
+    "Text": "Effect[When Attacking] [Once Per Turn] If you have 2 or more rested Characters, draw 1 card."
+}

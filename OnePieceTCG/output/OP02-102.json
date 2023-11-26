@@ -1,0 +1,14 @@
+{
+    "Name": "Smoker",
+    "Set": "OP02-102",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-102.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Navy",
+    "Text": "EffectThis Character cannot be K.O.'d by effects.[When Attacking] If there is a Character with a cost of 0, this Character gains +2000 power during this battle."
+}

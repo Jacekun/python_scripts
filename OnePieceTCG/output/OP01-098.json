@@ -1,0 +1,14 @@
+{
+    "Name": "Kurozumi Orochi",
+    "Set": "OP01-098",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-098.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Purple",
+    "Counter": "2000",
+    "Attribute": "Wisdom",
+    "Feature": "Land of Wano/Kurozumi Clan",
+    "Text": "Effect[On Play] Reveal up to 1 [Artificial Devil Fruit SMILE] from your deck and add it to your hand. Then, shuffle your deck."
+}

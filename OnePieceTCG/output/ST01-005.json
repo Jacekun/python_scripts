@@ -1,0 +1,14 @@
+{
+    "Name": "Jinbe",
+    "Set": "ST01-005",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-005.png?231031",
+    "Cost": "3",
+    "Power": "5000",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Fish-Man/Straw Hat Crew",
+    "Text": "Effect[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn."
+}

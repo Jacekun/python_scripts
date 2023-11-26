@@ -1,0 +1,14 @@
+{
+    "Name": "Minotaur",
+    "Set": "OP02-087",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-087.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Impel Down/Jailer Beast",
+    "Text": "Effect[Double Attack] (This card deals 2 damage.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Monkey.D.Garp",
+    "Set": "OP02-002",
+    "Rarity": "L",
+    "Type": "LEADER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-002_p1.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Red/Black",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Navy",
+    "Text": "Effect[Your Turn] When this Leader or any of your Characters is given a DON!! card, give up to 1 of your opponent's Characters with a cost of 7 or less \u22121 cost during this turn."
+}

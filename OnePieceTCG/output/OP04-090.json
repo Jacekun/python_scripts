@@ -1,0 +1,14 @@
+{
+    "Name": "Monkey.D.Luffy",
+    "Set": "OP04-090",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-090_p1.png?231031",
+    "Cost": "7",
+    "Power": "7000",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Dressrosa/Straw Hat Crew",
+    "Text": "EffectThis Character can also attack active Characters.[Activate: Main] [Once Per Turn] You may return 7 cards from your trash to the bottom of your deck in any order: Set this Character as active. Then, this Character will not become active in your next Refresh Phase."
+}

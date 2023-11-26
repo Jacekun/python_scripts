@@ -1,0 +1,14 @@
+{
+    "Name": "Super Spot-Billed Duck Troops",
+    "Set": "OP04-009",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-009.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Red",
+    "Counter": "2000",
+    "Attribute": "Strike",
+    "Feature": "Animal/Alabasta",
+    "Text": "Effect[When Attacking] You may give your 1 active Leader \u22125000 power during this turn: Return this Character to the owner's hand at the end of this turn."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Franky",
+    "Set": "OP04-063",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-063.png?231031",
+    "Cost": "1",
+    "Power": "1000",
+    "Color": "Purple",
+    "Counter": "2000",
+    "Attribute": "Wisdom",
+    "Feature": "Water Seven/The Franky Family",
+    "Text": "Effect[On Your Opponent's Attack] [Once Per Turn] DON!! \u22121 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, up to 1 of your Leader or Character cards gains +1000 power during this battle."
+}

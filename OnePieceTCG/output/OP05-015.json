@@ -1,0 +1,14 @@
+{
+    "Name": "Belo Betty",
+    "Set": "OP05-015",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-015_p1.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Revolutionary Army",
+    "Text": "Effect[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Belo Betty] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

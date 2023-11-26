@@ -1,0 +1,14 @@
+{
+    "Name": "Tooth Attack",
+    "Set": "OP03-037",
+    "Rarity": "C",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-037.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Green",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Fish-Man/East Blue/Arlong Pirates",
+    "Text": "Effect[Main] You may rest 1 of your {East Blue} type Characters: K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less."
+}

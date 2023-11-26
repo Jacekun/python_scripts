@@ -1,0 +1,14 @@
+{
+    "Name": "Adio",
+    "Set": "OP03-002",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-002.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Ranged",
+    "Feature": "ODYSSEY",
+    "Text": "Effect[DON!! x1] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Tony Tony.Chopper",
+    "Set": "OP04-010",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-010.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Animal/Alabasta/Straw Hat Crew",
+    "Text": "Effect[On Play] Play up to 1 {Animal} type Character card with 3000 power or less from your hand."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Zeus",
+    "Set": "ST07-011",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-011.png?231031",
+    "Cost": "3",
+    "Power": "3000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Big Mom Pirates/Homies",
+    "Text": "Effect[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)"
+}

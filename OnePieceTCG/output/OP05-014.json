@@ -1,0 +1,14 @@
+{
+    "Name": "Pell",
+    "Set": "OP05-014",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-014.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Alabasta",
+    "Text": "Effect[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters \u22122000 power during this turn."
+}

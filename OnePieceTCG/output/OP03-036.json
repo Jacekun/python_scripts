@@ -1,0 +1,14 @@
+{
+    "Name": "Out-of-the-Bag",
+    "Set": "OP03-036",
+    "Rarity": "C",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-036.png?231031",
+    "Cost": "3",
+    "Power": "-",
+    "Color": "Green",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "East Blue/Black Cat Pirates",
+    "Text": "Effect[Main] You may rest 1 of your {East Blue} type Characters: Set up to 1 of your [Kuro] cards as active."
+}

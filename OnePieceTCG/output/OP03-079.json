@@ -1,0 +1,14 @@
+{
+    "Name": "Vergo",
+    "Set": "OP03-079",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-079.png?231031",
+    "Cost": "5",
+    "Power": "5000",
+    "Color": "Black",
+    "Counter": "2000",
+    "Attribute": "Strike",
+    "Feature": "Navy/Donquixote Pirates",
+    "Text": "Effect[DON!! x1] This Character cannot be K.O.'d in battle."
+}

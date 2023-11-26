@@ -1,0 +1,14 @@
+{
+    "Name": "Zambai",
+    "Set": "OP03-063",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-063.png?231031",
+    "Cost": "3",
+    "Power": "2000",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "Slash",
+    "Feature": "Water Seven/The Franky Family",
+    "Text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! \u22121 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, draw 1 card."
+}

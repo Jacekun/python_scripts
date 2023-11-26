@@ -1,0 +1,14 @@
+{
+    "Name": "Who's.Who",
+    "Set": "ST04-010",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-010.png?231031",
+    "Cost": "3",
+    "Power": "3000",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "Slash",
+    "Feature": "Animal Kingdom Pirates",
+    "Text": "Effect[On Play] DON!! \u22121 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less."
+}

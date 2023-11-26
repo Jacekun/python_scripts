@@ -1,0 +1,14 @@
+{
+    "Name": "Bunny Joe",
+    "Set": "OP05-013",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-013.png?231031",
+    "Cost": "2",
+    "Power": "2000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Ranged",
+    "Feature": "Revolutionary Army",
+    "Text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+}

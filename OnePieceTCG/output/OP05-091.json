@@ -1,0 +1,14 @@
+{
+    "Name": "Rebecca",
+    "Set": "OP05-091",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-091_p1.png?231031",
+    "Cost": "4",
+    "Power": "-",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Dressrosa",
+    "Text": "Effect[Blocker][On Play] Add up to 1 black Character card with a cost of 3 to 7 other than [Rebecca] from your trash to your hand. Then, play up to 1 black Character card with a cost of 3 or less from your hand rested."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Miss.Goldenweek(Marianne)",
+    "Set": "OP04-065",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-065.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Baroque Works",
+    "Text": "Effect[On Play] If your Leader's type includes \"Baroque Works\", up to 1 of your opponent's Characters with a cost of 5 or less cannot attack until the start of your next turn."
+}

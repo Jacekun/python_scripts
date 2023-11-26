@@ -1,0 +1,14 @@
+{
+    "Name": "Zephyr",
+    "Set": "ST05-010",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-010.png?231031",
+    "Cost": "7",
+    "Power": "8000",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "FILM/Neo Navy",
+    "Text": "EffectWhen this Character battles \uff1cStrike\uff1e attribute Characters, this Character gains +3000 power during this turn.[Activate: Main] [Once Per Turn] DON!! \u22121 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +2000 power during this turn."
+}

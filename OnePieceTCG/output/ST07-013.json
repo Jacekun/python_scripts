@@ -1,0 +1,14 @@
+{
+    "Name": "Prometheus",
+    "Set": "ST07-013",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-013.png?231031",
+    "Cost": "3",
+    "Power": "3000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Big Mom Pirates/Homies",
+    "Text": "Effect[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Double Attack] during this turn.(This card deals 2 damage.)"
+}

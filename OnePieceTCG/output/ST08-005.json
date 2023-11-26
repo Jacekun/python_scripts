@@ -1,0 +1,14 @@
+{
+    "Name": "Shanks",
+    "Set": "ST08-005",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-005.png?231031",
+    "Cost": "9",
+    "Power": "10000",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "Slash",
+    "Feature": "Red-Haired Pirates",
+    "Text": "Effect[On Play] You may trash 1 card from your hand: K.O. all Characters with a cost of 1 or less."
+}

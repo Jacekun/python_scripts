@@ -1,0 +1,14 @@
+{
+    "Name": "Bepo",
+    "Set": "ST10-012",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-012.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Minks/Heart Pirates",
+    "Text": "Effect[On Play]/[When Attacking] If your opponent has more DON!! cards on their field than you, add up to 1 DON!! card from your DON!! deck and rest it."
+}

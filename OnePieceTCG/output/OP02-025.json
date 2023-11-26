@@ -1,0 +1,14 @@
+{
+    "Name": "Kin'emon",
+    "Set": "OP02-025",
+    "Rarity": "L",
+    "Type": "LEADER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-025_p1.png?231031",
+    "Cost": "5",
+    "Power": "5000",
+    "Color": "Green",
+    "Counter": "-",
+    "Attribute": "Slash",
+    "Feature": "Land of Wano/The Akazaya Nine",
+    "Text": "Effect[Activate: Main] [Once Per Turn] If you have 1 or less Characters, the next time you play a {Land of Wano} type Character card with a cost of 3 or more from your hand during this turn, the cost will be reduced by 1."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Caesar Clown",
+    "Set": "OP01-069",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-069.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Scientist/Punk Hazard",
+    "Text": "Effect[On K.O.] Play up to 1 [Smiley] from your deck, then shuffle your deck."
+}

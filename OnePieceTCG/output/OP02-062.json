@@ -1,0 +1,14 @@
+{
+    "Name": "Monkey.D.Luffy",
+    "Set": "OP02-062",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-062_p1.png?231031",
+    "Cost": "6",
+    "Power": "7000",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Impel Down/Straw Hat Crew",
+    "Text": "Effect[On Play]/[When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn.(This card deals 2 damage.)"
+}

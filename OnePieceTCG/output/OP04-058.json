@@ -1,0 +1,14 @@
+{
+    "Name": "Crocodile",
+    "Set": "OP04-058",
+    "Rarity": "L",
+    "Type": "LEADER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-058_p1.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Purple/Yellow",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "The Seven Warlords of the Sea/Baroque Works",
+    "Text": "Effect[Opponent's Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck by your effect, add up to 1 DON!! card from your DON!! deck and set it as active."
+}

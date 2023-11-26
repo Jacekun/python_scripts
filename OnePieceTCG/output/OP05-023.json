@@ -1,0 +1,14 @@
+{
+    "Name": "Vergo",
+    "Set": "OP05-023",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-023.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Navy/Donquixote Pirates",
+    "Text": "Effect[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less."
+}

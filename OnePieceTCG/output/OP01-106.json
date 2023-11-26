@@ -1,0 +1,14 @@
+{
+    "Name": "Basil Hawkins",
+    "Set": "OP01-106",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-106.png?231031",
+    "Cost": "4",
+    "Power": "2000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Animal Kingdom Pirates/Hawkins Pirates",
+    "Text": "Effect[On Play] Add up to 1 DON!! card from your DON!! deck and rest it."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Kotori",
+    "Set": "OP05-103",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-103.png?231031",
+    "Cost": "3",
+    "Power": "3000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Sky Island",
+    "Text": "Effect[On Play] If you have [Hotori], K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards."
+}

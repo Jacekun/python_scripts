@@ -1,0 +1,14 @@
+{
+    "Name": "Viola",
+    "Set": "OP04-021",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-021.png?231031",
+    "Cost": "3",
+    "Power": "3000",
+    "Color": "Green",
+    "Counter": "2000",
+    "Attribute": "Special",
+    "Feature": "Donquixote Pirates",
+    "Text": "Effect[On Your Opponent's Attack] \u2781 (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's DON!! cards."
+}

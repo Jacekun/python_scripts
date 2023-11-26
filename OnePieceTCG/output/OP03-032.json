@@ -1,0 +1,14 @@
+{
+    "Name": "Buggy",
+    "Set": "OP03-032",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-032.png?231031",
+    "Cost": "3",
+    "Power": "5000",
+    "Color": "Green",
+    "Counter": "-",
+    "Attribute": "Slash",
+    "Feature": "East Blue/Buggy Pirates",
+    "Text": "EffectThis Character cannot be K.O.'d in battle by  attribute cards."
+}

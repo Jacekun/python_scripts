@@ -1,0 +1,14 @@
+{
+    "Name": "Monkey.D.Luffy",
+    "Set": "OP01-024",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-024_p1.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Supernovas/Straw Hat Crew",
+    "Text": "Effect[DON!! x2] This Character cannot be K.O.'d in battle by \uff1cStrike\uff1e  attribute Characters.[Activate: Main] [Once Per Turn] Give this Character up to 2 rested DON!! cards."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Guard Point",
+    "Set": "ST01-014",
+    "Rarity": "C",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-014.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Animal/Straw Hat Crew",
+    "Text": "Effect[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle."
+}

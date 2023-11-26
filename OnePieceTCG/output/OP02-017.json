@@ -1,0 +1,14 @@
+{
+    "Name": "Masked Deuce",
+    "Set": "OP02-017",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-017_p1.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Red",
+    "Counter": "2000",
+    "Attribute": "Wisdom",
+    "Feature": "Spade Pirates",
+    "Text": "Effect[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less."
+}

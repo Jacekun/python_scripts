@@ -1,0 +1,14 @@
+{
+    "Name": "Mr.3(Galdino)",
+    "Set": "OP01-085",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-085.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Baroque Works",
+    "Text": "Effect[On Play] If your Leader has the {Baroque Works} type, select up to 1 of your opponent's Characters with a cost of 4 or less. The selected Character cannot attack until the end of your opponent's next turn."
+}

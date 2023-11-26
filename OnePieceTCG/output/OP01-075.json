@@ -1,0 +1,14 @@
+{
+    "Name": "Pacifista",
+    "Set": "OP01-075",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-075.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "Biological Weapon/Navy",
+    "Text": "EffectUnder the rules of this game, you may have any number of this card in your deck.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+}

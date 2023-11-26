@@ -1,0 +1,14 @@
+{
+    "Name": "Basil Hawkins",
+    "Set": "OP05-047",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-047.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Animal Kingdom Pirates/Hawkins Pirates",
+    "Text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] Draw 1 card if you have 3 or less cards in your hand. Then, this Character gains +1000 power during this battle."
+}

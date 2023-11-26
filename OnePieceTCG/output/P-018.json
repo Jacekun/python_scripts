@@ -1,0 +1,14 @@
+{
+    "Name": "Bartolomeo",
+    "Set": "P-018",
+    "Rarity": "P",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-018.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "FILM/Supernovas/Barto Club",
+    "Text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+}

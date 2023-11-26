@@ -1,0 +1,14 @@
+{
+    "Name": "Uso-Hachi",
+    "Set": "OP05-061",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-061.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Purple",
+    "Counter": "2000",
+    "Attribute": "Ranged",
+    "Feature": "Straw Hat Crew",
+    "Text": "Effect[DON!! x1] [When Attacking] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 4 or less."
+}

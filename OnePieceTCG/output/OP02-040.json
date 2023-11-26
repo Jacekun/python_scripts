@@ -1,0 +1,14 @@
+{
+    "Name": "Brook",
+    "Set": "OP02-040",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-040.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "FILM/Straw Hat Crew",
+    "Text": "Effect[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 3 or less from your hand."
+}

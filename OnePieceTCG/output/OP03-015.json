@@ -1,0 +1,14 @@
+{
+    "Name": "Lim",
+    "Set": "OP03-015",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-015.png?231031",
+    "Cost": "3",
+    "Power": "2000",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "Wisdom",
+    "Feature": "ODYSSEY",
+    "Text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] When this Character is K.O.'d, give up to 1 of your opponent's Leader or Character cards \u22122000 power during this turn."
+}

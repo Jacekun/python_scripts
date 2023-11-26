@@ -1,0 +1,14 @@
+{
+    "Name": "Yamato",
+    "Set": "ST09-001",
+    "Rarity": "L",
+    "Type": "LEADER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-001.png?231031",
+    "Cost": "5",
+    "Power": "5000",
+    "Color": "Yellow",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Land of Wano",
+    "Text": "Effect[DON!! x1] [Opponent's Turn] If you have 2 or less Life cards, this Leader gains +1000 power."
+}

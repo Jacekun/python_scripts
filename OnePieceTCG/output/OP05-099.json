@@ -1,0 +1,14 @@
+{
+    "Name": "Amazon",
+    "Set": "OP05-099",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-099.png?231031",
+    "Cost": "3",
+    "Power": "-",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Sky Island",
+    "Text": "Effect[On Your Opponent's Attack] You may rest this Character: Your opponent may trash 1 card from the top of their Life cards. If they do not, give up to 1 of your opponent's Leader or Character cards \u22122000 power during this turn."
+}

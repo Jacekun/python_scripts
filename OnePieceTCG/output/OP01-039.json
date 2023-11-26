@@ -1,0 +1,14 @@
+{
+    "Name": "Killer",
+    "Set": "OP01-039",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-039.png?231031",
+    "Cost": "2",
+    "Power": "2000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Supernovas/Kid Pirates",
+    "Text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] If you have 3 or more Characters, draw 1 card."
+}

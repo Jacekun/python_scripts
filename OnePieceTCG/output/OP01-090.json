@@ -1,0 +1,14 @@
+{
+    "Name": "Baroque Works",
+    "Set": "OP01-090",
+    "Rarity": "UC",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-090.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Baroque Works",
+    "Text": "Effect[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Baroque Works} type card other than [Baroque Works] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

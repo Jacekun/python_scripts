@@ -1,0 +1,14 @@
+{
+    "Name": "Igaram",
+    "Set": "OP04-002",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-002.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Red",
+    "Counter": "1000",
+    "Attribute": "Ranged",
+    "Feature": "Alabasta",
+    "Text": "Effect[Activate: Main] You may rest this Character and give your 1 active Leader \u22125000 power during this turn: Look at 5 cards from the top of your deck; reveal up to 1 {Alabasta} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

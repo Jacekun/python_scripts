@@ -1,0 +1,14 @@
+{
+    "Name": "Crocodile",
+    "Set": "OP01-067",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-067_p1.png?231031",
+    "Cost": "7",
+    "Power": "7000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "The Seven Warlords of the Sea/Baroque Works",
+    "Text": "Effect[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[DON!! x1] Give blue Events in your hand \u22121 cost."
+}

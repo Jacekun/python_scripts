@@ -1,0 +1,14 @@
+{
+    "Name": "Cross Fire",
+    "Set": "OP03-017",
+    "Rarity": "UC",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-017.png?231031",
+    "Cost": "2",
+    "Power": "-",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Whitebeard Pirates",
+    "Text": "Effect[Main]/[Counter] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters \u22124000 power during this turn."
+}

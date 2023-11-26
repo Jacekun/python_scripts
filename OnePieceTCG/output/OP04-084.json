@@ -1,0 +1,14 @@
+{
+    "Name": "Stussy",
+    "Set": "OP04-084",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-084.png?231031",
+    "Cost": "2",
+    "Power": "3000",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "CP0",
+    "Text": "Effect[On Play] Look at 3 cards from the top of your deck and play up to 1 Character card with a type including \"CP\" other than [Stussy] and a cost of 2 or less. Then, trash the rest."
+}

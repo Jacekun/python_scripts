@@ -1,0 +1,14 @@
+{
+    "Name": "Kin'emon",
+    "Set": "OP01-040",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-040_p1.png?231031",
+    "Cost": "6",
+    "Power": "6000",
+    "Color": "Green",
+    "Counter": "-",
+    "Attribute": "Slash",
+    "Feature": "Land of Wano/The Akazaya Nine",
+    "Text": "Effect[On Play] If your Leader is [Kouzuki Oden], play up to 1 {The Akazaya Nine} type Character card with a cost of 3 or less from your hand.[DON!! x1] [When Attacking] [Once Per Turn] Set up to 1 of your {The Akazaya Nine} type Character cards with a cost of 3 or less as active."
+}

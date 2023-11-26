@@ -1,0 +1,14 @@
+{
+    "Name": "Monkey.D.Garp",
+    "Set": "OP03-014",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-014.png?231031",
+    "Cost": "3",
+    "Power": "5000",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Navy",
+    "Text": "Effect[When Attacking] Play up to 1 red Character card with a cost of 1 from your hand."
+}

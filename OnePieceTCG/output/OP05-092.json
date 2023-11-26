@@ -1,0 +1,14 @@
+{
+    "Name": "Saint Rosward",
+    "Set": "OP05-092",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-092.png?231031",
+    "Cost": "5",
+    "Power": "-",
+    "Color": "Black",
+    "Counter": "1000",
+    "Attribute": "Ranged",
+    "Feature": "Celestial Dragons",
+    "Text": "Effect[Your Turn] If the only Characters on your field are {Celestial Dragons} type Characters, give all of your opponent's Characters \u22126 cost."
+}

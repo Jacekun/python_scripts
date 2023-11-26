@@ -1,0 +1,14 @@
+{
+    "Name": "Haccha",
+    "Set": "OP05-049",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-049.png?231031",
+    "Cost": "6",
+    "Power": "7000",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Giant/Animal Kingdom Pirates",
+    "Text": "Effect[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 3 or less to the owner's hand."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Kuzan",
+    "Set": "OP02-121",
+    "Rarity": "SEC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121_p1.png?231031",
+    "Cost": "10",
+    "Power": "10000",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "Former Navy",
+    "Text": "Effect[Your Turn] Give all of your opponent's Characters \u22125 cost.[On Play] K.O. up to 1 of your opponent's Characters with a cost of 0."
+}

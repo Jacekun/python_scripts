@@ -1,0 +1,14 @@
+{
+    "Name": "Trafalgar Law",
+    "Set": "OP05-027",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-027.png?231031",
+    "Cost": "1",
+    "Power": "2000",
+    "Color": "Green",
+    "Counter": "1000",
+    "Attribute": "Wisdom",
+    "Feature": "Donquixote Pirates",
+    "Text": "Effect[Activate: Main] You may trash this Character: Rest up to 1 of your opponent's Characters with a cost of 3 or less."
+}

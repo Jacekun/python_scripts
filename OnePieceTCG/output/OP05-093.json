@@ -1,0 +1,14 @@
+{
+    "Name": "Rob Lucci",
+    "Set": "OP05-093",
+    "Rarity": "SR",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-093_p1.png?231031",
+    "Cost": "4",
+    "Power": "6000",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "CP0",
+    "Text": "Effect[On Play] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Daifugo",
+    "Set": "OP02-078",
+    "Rarity": "UC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-078.png?231031",
+    "Cost": "3",
+    "Power": "5000",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "Ranged",
+    "Feature": "Animal Kingdom Pirates/SMILE",
+    "Text": "Effect[On Play] DON!! \u22122 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 {SMILE} type Character card other than [Daifugo] with a cost of 3 or less from your hand."
+}

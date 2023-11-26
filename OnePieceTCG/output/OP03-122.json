@@ -1,0 +1,14 @@
+{
+    "Name": "Sogeking",
+    "Set": "OP03-122",
+    "Rarity": "SEC",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-122_p2.png?231031",
+    "Cost": "7",
+    "Power": "6000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Ranged",
+    "Feature": "Sniper Island",
+    "Text": "EffectAlso treat this card's name as [Usopp] according to the rules.[On Play] Return up to 1 Character with a cost of 6 or less to the owner's hand. Then, draw 2 cards and trash 2 cards from your hand."
+}

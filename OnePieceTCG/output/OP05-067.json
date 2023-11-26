@@ -1,0 +1,14 @@
+{
+    "Name": "Zoro-Juurou",
+    "Set": "OP05-067",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-067_p1.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Straw Hat Crew",
+    "Text": "Effect[When Attacking] If you have 3 or less Life cards, add up to 1 DON!! card from your DON!! deck and set it as active."
+}

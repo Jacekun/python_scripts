@@ -1,0 +1,14 @@
+{
+    "Name": "Colors Trap",
+    "Set": "OP04-074",
+    "Rarity": "R",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-074.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Purple",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Baroque Works",
+    "Text": "Effect[Counter] DON!! \u22121 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less."
+}

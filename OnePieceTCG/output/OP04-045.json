@@ -1,0 +1,14 @@
+{
+    "Name": "King",
+    "Set": "OP04-045",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-045.png?231031",
+    "Cost": "7",
+    "Power": "8000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Animal Kingdom Pirates",
+    "Text": "Effect[On Play] Draw 1 card."
+}

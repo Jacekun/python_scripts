@@ -1,0 +1,14 @@
+{
+    "Name": "Hina",
+    "Set": "ST06-008",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-008.png?231031",
+    "Cost": "3",
+    "Power": "5000",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "Navy",
+    "Text": "Effect[On Play] Give up to 1 of your opponent's Characters \u22124 cost during this turn."
+}

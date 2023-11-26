@@ -1,0 +1,14 @@
+{
+    "Name": "Marshall.D.Teach",
+    "Set": "OP03-012",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-012.png?231031",
+    "Cost": "4",
+    "Power": "6000",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "Strike",
+    "Feature": "Whitebeard Pirates",
+    "Text": "Effect[When Attacking] You may trash 1 of your red Characters with 4000 power or more: Draw 1 card. Then, this Character gains +1000 power during this battle."
+}

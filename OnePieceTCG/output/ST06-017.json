@@ -1,0 +1,14 @@
+{
+    "Name": "Navy HQ",
+    "Set": "ST06-017",
+    "Rarity": "C",
+    "Type": "STAGE",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-017.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Black",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Navy",
+    "Text": "Effect[On Play] Give up to 1 of your opponent's Characters \u22121 cost during this turn.[Activate: Main] You may rest this Stage: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters \u22121 cost during this turn."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Gecko Moria",
+    "Set": "OP01-068",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-068.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Blue",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "The Seven Warlords of the Sea/Thriller Bark Pirates",
+    "Text": "Effect[Your Turn] This Character gains [Double Attack] if you have 5 or more cards in your hand.(This card deals 2 damage.)"
+}

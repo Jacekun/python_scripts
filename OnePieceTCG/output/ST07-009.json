@@ -1,0 +1,14 @@
+{
+    "Name": "Charlotte Mont-d'or",
+    "Set": "ST07-009",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-009.png?231031",
+    "Cost": "3",
+    "Power": "4000",
+    "Color": "Yellow",
+    "Counter": "1000",
+    "Attribute": "Special",
+    "Feature": "Big Mom Pirates",
+    "Text": "Effect[Activate: Main] You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less."
+}

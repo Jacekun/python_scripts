@@ -1,0 +1,14 @@
+{
+    "Name": "Tilestone",
+    "Set": "OP03-064",
+    "Rarity": "C",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-064.png?231031",
+    "Cost": "5",
+    "Power": "6000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Strike",
+    "Feature": "Water Seven/Galley-La Company",
+    "Text": "Effect[On K.O.] If your Leader has the {Galley-La Company} type, add up to 1 DON!! card from your DON!! deck and rest it."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Trafalgar Law",
+    "Set": "P-009",
+    "Rarity": "P",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-009.png?231031",
+    "Cost": "6",
+    "Power": "7000",
+    "Color": "Blue",
+    "Counter": "-",
+    "Attribute": "Slash",
+    "Feature": "Supernovas/Heart Pirates",
+    "Text": "Effect[On Play] If your opponent has 6 or more cards in their hand, your opponent adds 1 card from their Life area to their hand."
+}

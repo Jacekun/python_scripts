@@ -1,0 +1,14 @@
+{
+    "Name": "Revolutionary Army HQ",
+    "Set": "OP05-021",
+    "Rarity": "UC",
+    "Type": "STAGE",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-021.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "Revolutionary Army",
+    "Text": "Effect[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+}

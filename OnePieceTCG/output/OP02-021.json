@@ -1,0 +1,14 @@
+{
+    "Name": "Seaquake",
+    "Set": "OP02-021",
+    "Rarity": "R",
+    "Type": "EVENT",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-021.png?231031",
+    "Cost": "1",
+    "Power": "-",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "",
+    "Feature": "The Four Emperors/Whitebeard Pirates",
+    "Text": "Effect[Main] If your Leader's type includes \"Whitebeard Pirates\", K.O. up to 1 of your opponent's Characters with 3000 power or less."
+}

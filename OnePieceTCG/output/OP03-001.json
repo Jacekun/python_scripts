@@ -1,0 +1,14 @@
+{
+    "Name": "Portgas.D.Ace",
+    "Set": "OP03-001",
+    "Rarity": "L",
+    "Type": "LEADER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-001_p1.png?231031",
+    "Cost": "5",
+    "Power": "5000",
+    "Color": "Red",
+    "Counter": "-",
+    "Attribute": "Special",
+    "Feature": "Whitebeard Pirates",
+    "Text": "EffectWhen this Leader attacks or is attacked, you may trash any number of Event or Stage cards from your hand. This Leader gains +1000 power during this battle for every card trashed."
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Shiryu",
+    "Set": "OP02-076",
+    "Rarity": "R",
+    "Type": "CHARACTER",
+    "Image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-076.png?231031",
+    "Cost": "4",
+    "Power": "5000",
+    "Color": "Purple",
+    "Counter": "1000",
+    "Attribute": "Slash",
+    "Feature": "Impel Down",
+    "Text": "Effect[On Play] DON!! \u22121 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 1 or less."
+}
