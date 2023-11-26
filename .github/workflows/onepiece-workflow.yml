@@ -26,14 +26,20 @@ jobs:
       - name: Clone repo, using branch name
         uses: actions/checkout@v3
         if: github.event.inputs.git-ref == ''
+        with:
+          sparse-checkout: |
+            OnePieceTCG
 
       - name: Clone repo with ref
         uses: actions/checkout@v3
         with:
           ref: ${{ github.event.inputs.git-ref }}
+          sparse-checkout: |
+            OnePieceTCG
         if: github.event.inputs.git-ref != ''
 
       - name: List files in the repository
+        working-directory: './OnePieceTCG'
         run: |
             ls .
             
