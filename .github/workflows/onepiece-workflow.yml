@@ -18,6 +18,7 @@ concurrency:
 
 env:
   REPO_BRANCH: onepiece
+  FOLDER: OnePieceTCG
 
 jobs:
   build:
@@ -28,34 +29,34 @@ jobs:
         if: github.event.inputs.git-ref == ''
         with:
           sparse-checkout: |
-            OnePieceTCG
+            ${{ env.FOLDER }}
 
       - name: Clone repo with ref
         uses: actions/checkout@v3
         with:
           ref: ${{ github.event.inputs.git-ref }}
           sparse-checkout: |
-            OnePieceTCG
+            ${{ env.FOLDER }}
         if: github.event.inputs.git-ref != ''
 
       - name: List files in the repository
-        working-directory: './OnePieceTCG'
+        working-directory: './${{ env.FOLDER }}'
         run: |
             ls .
             
       - name: Install requirements.txt
-        working-directory: './OnePieceTCG'
+        working-directory: './${{ env.FOLDER }}'
         run: pip install -r requirements.txt
         
       - name: Run main python script
-        working-directory: './OnePieceTCG'
+        working-directory: './${{ env.FOLDER }}'
         run: python main.py
 
       - name: Commit to the repo
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add .
+          git add ${{ env.FOLDER }}
           # "echo" returns true so the build succeeds, even if no changed files
           git commit --amend -m '[skip ci] updated one piece tcg database' || echo
           git push --force origin ${{ env.REPO_BRANCH }}
