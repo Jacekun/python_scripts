@@ -20,7 +20,7 @@ concurrency:
 
 
 env:
-  MAIN_BRANCH: main
+  MAIN_BRANCH: op_temp
   REPO_BRANCH: onepiece
   FOLDER: OnePieceTCG
 
@@ -60,10 +60,12 @@ jobs:
         run: python main.py
 
       - name: Commit to the repo
+        working-directory: './${{ env.FOLDER }}'
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add ${{ env.FOLDER }}
+          git checkout ${{ env.MAIN_BRANCH }}
+          git add .
           # "echo" returns true so the build succeeds, even if no changed files
           git commit -m '[skip ci] updated one piece tcg database' || echo
           git push origin ${{ env.MAIN_BRANCH }}:${{ env.REPO_BRANCH }} -f
