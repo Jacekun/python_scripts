@@ -62,4 +62,4 @@ jobs:
           git add ${{ env.FOLDER }}
           # "echo" returns true so the build succeeds, even if no changed files
           git commit -m '[skip ci] updated one piece tcg database' || echo
-          git push --force origin ${{ env.REPO_BRANCH }}
+          git push origin/${{ env.REPO_BRANCH }} -f
