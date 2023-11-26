@@ -28,12 +28,14 @@ jobs:
         uses: actions/checkout@v3
         if: github.event.inputs.git-ref == ''
         with:
+          fetch-depth: 0
           sparse-checkout: |
             ${{ env.FOLDER }}
 
       - name: Clone repo with ref
         uses: actions/checkout@v3
         with:
+          fetch-depth: 0
           ref: ${{ github.event.inputs.git-ref }}
           sparse-checkout: |
             ${{ env.FOLDER }}
@@ -60,4 +62,4 @@ jobs:
           git add ${{ env.FOLDER }}
           # "echo" returns true so the build succeeds, even if no changed files
           git commit --amend -m '[skip ci] updated one piece tcg database' || echo
-          git push --force ${{ env.REPO_BRANCH }}
+          git push --force origin ${{ env.REPO_BRANCH }}
