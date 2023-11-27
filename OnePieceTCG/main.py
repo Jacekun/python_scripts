@@ -106,8 +106,8 @@ def main():
             )
 
             if req_object.ok:
-                write_file(file_cardlist_html, req_object.text)
-                log("Done writing HTMl content.")
+                #write_file(file_cardlist_html, req_object.text)
+                #log("Done writing HTMl content.")
                 contents_html = req_object.text.strip()
 
         if contents_html != "":
@@ -181,7 +181,7 @@ def main():
                 write_json(file_output_card, card_contents)
 
         else:
-            log(f"Failed to fetch card list. Status code: {req_object.status_code}. Reason: {req_object.reason}")
+            raise Exception(f"Failed to fetch card list. Status code: {req_object.status_code}. Reason: {req_object.reason}")
 
 
         log("Done!")
