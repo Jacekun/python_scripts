@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 def write_to_log(content: str) -> bool:
     try:
         Path("logs").mkdir(parents=True, exist_ok=True)
-        currentdate: str = datetime.today().strftime('%Y-%m-%d')
+        currentdate: str = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
         filename: str = f"applog.log"
         filepath: str = os.path.join("logs", filename)
         with open(filepath, 'a') as f:
