@@ -16,10 +16,11 @@ from bs4 import BeautifulSoup
 def write_to_log(content: str) -> bool:
     try:
         Path("logs").mkdir(parents=True, exist_ok=True)
-        filename: str = f"log_{datetime.today().strftime('%Y-%m-%d')}.log"
+        currentdate: str = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
+        filename: str = f"applog.log"
         filepath: str = os.path.join("logs", filename)
         with open(filepath, 'a') as f:
-            f.write(f"{content}\n")
+            f.write(f"[{currentdate}] {content}\n")
         return True
     except Exception as e:
         #log_err("Error", e)
@@ -88,6 +89,18 @@ def main():
 
         #-- Create Folders
         Path("output").mkdir(parents=True, exist_ok=True)
+
+        #-- Clear log files
+        log("Starting deletion of log files..")
+        log_path: str = "logs"
+        log_path_files = os.listdir(log_path)
+        for item in log_path_files:
+            if item.endswith(".log"):
+                logfile: str = os.path.join(log_path, item)
+                if os.path.isfile(logfile):
+                    os.remove(logfile)
+
+        log("Done deleting old log files.")
 
         #-- Load from cache if available
         if os.path.exists(file_cardlist_html) and is_use_cache:
