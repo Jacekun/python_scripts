@@ -357,7 +357,7 @@ try:
                 else:
                     card_folder_name = str(row[index_folder_name])
                     row_card_name = str(row[index_cardname])
-                    is_ocg = card_folder_name.strip().startswith("OCG")
+                    is_ocg = card_folder_name.strip().startswith("OCG") or card_folder_name.strip().startswith("AE")
                     card_format = "OCG" if is_ocg else "TCG"
                     
                     log(f"\tL{line_count}; Processing {row_card_name} with cardset '{row[index_cardnumber]}'")
@@ -427,6 +427,17 @@ try:
     process_card_list("OCG/TCG", export_json_file_name[index_all], jsonfile_card_conf_list[index_all], jsonfile_cards_with_error[index_all], export_conf_file[index_all])
 
     #"""
+    # Process OCG cards
+    write_json(export_json_file_name[index_ocg], cards_ocg)
+    log(f"Exported OCG card list.")
+
+    write_json(jsonfile_listings[index_ocg], card_listings_ocg)
+    log(f"Exported OCG listings.")
+
+    process_card_list("OCG", export_json_file_name[index_ocg], jsonfile_card_conf_list[index_ocg], jsonfile_cards_with_error[index_ocg], export_conf_file[index_ocg])
+    #"""
+
+    #"""
     # Process TCG cards
     write_json(export_json_file_name[index_tcg], cards_tcg)
     log(f"Exported TCG card list.")
@@ -437,16 +448,6 @@ try:
     process_card_list("TCG", export_json_file_name[index_tcg], jsonfile_card_conf_list[index_tcg], jsonfile_cards_with_error[index_tcg], export_conf_file[index_tcg])
     #"""
 
-    #"""
-    # Process OCG cards
-    write_json(export_json_file_name[index_ocg], cards_ocg)
-    log(f"Exported OCG card list.")
-
-    write_json(jsonfile_listings[index_ocg], card_listings_ocg)
-    log(f"Exported OCG listings.")
-
-    process_card_list("OCG", export_json_file_name[index_ocg], jsonfile_card_conf_list[index_ocg], jsonfile_cards_with_error[index_ocg], export_conf_file[index_ocg])
-    #"""
 
 except Exception as e:
     log_err("Error, main", e)
