@@ -216,6 +216,7 @@ try:
     index_all: int = 0
     index_tcg: int = 1
     index_ocg: int = 2
+    index_ae: int = 3
 
     # File paths
     csv_file_name: str = "all-folders-output.csv"
@@ -224,27 +225,32 @@ try:
     export_json_file_name: list[str] = [ 
         os.path.join(folder_outputs, "cards.json"),
         os.path.join(folder_outputs, "TCG_cards.json"), 
-        os.path.join(folder_outputs,  "OCG_cards.json")
+        os.path.join(folder_outputs, "OCG_cards.json"),
+        os.path.join(folder_outputs, "AE_cards.json")
     ]
     export_conf_file: list[str] = [ 
         os.path.join(folder_outputs, "MyCards.lflist.conf"),
         os.path.join(folder_outputs, "MyCards_TCG.lflist.conf"),
-        os.path.join(folder_outputs, "MyCards_OCG.lflist.conf")
+        os.path.join(folder_outputs, "MyCards_OCG.lflist.conf"),
+        os.path.join(folder_outputs, "MyCards_AE.lflist.conf")
     ]
     jsonfile_cards_with_error: list[str] = [ 
         os.path.join(folder_outputs, "cards_error.json"),
         os.path.join(folder_outputs, "TCG_cards_error.json"),
-        os.path.join(folder_outputs, "OCG_cards_error.json")
+        os.path.join(folder_outputs, "OCG_cards_error.json"),
+        os.path.join(folder_outputs, "AE_cards_error.json")
     ]
     jsonfile_card_conf_list: list[str] = [ 
         os.path.join(folder_outputs, "cards_conf.json"),
         os.path.join(folder_outputs, "TCG_cards_conf.json"),
-        os.path.join(folder_outputs, "OCG_cards_conf.json")
+        os.path.join(folder_outputs, "OCG_cards_conf.json"),
+        os.path.join(folder_outputs, "AE_cards_conf.json")
     ]
     jsonfile_listings: list[str] = [ 
         os.path.join(folder_outputs, "listings.json"),
         os.path.join(folder_outputs, "TCG_listings.json"),
-        os.path.join(folder_outputs, "OCG_listings.json")
+        os.path.join(folder_outputs, "OCG_listings.json"),
+        os.path.join(folder_outputs, "AE_listings.json")
     ]
 
     # Variables
@@ -255,9 +261,9 @@ try:
 
     cards: list[any] = [] # List of all cards from Imported csv file
     cards_tcg: list[any] = [] # TCG-only list
-    cards_ocg: list[any] = [] # OCG List
+    cards_ocg: list[any] = [] # OCG and AE List
+    cards_ae: list[any] = [] # AE-only List
     card_listings: list[any] = [] # List of card listings with rarity. For shop use.
-    card_listings_ocg: list[any] = []
 
     # Dynamic variables for local use
     jsonfile_setcode: str = ""
@@ -277,6 +283,8 @@ try:
     temp_object: any = None
     is_request: bool = False
     is_ocg: bool = False
+    is_ae: bool = False
+    is_tcg: bool = False
 
     # Create necessary folders
     Path(folder_setcodes).mkdir(parents=True, exist_ok=True)
@@ -298,7 +306,7 @@ try:
 
     # Convert csv encoding from 'utf-16-le' to 'utf-8'
     try:
-        with open(csv_file_name_source, "r", encoding = "utf-16-le") as sourceFile:
+        with open(csv_file_name_source, "r", encoding = "utf-8") as sourceFile:
             log("Opening source file..")
             with open(csv_file_name, "w", encoding = csv_text_encoding) as targetFile:
                 log("Reading source file..")
@@ -357,8 +365,16 @@ try:
                 else:
                     card_folder_name = str(row[index_folder_name])
                     row_card_name = str(row[index_cardname])
-                    is_ocg = card_folder_name.strip().startswith("OCG") or card_folder_name.strip().startswith("AE")
+                    is_ae = card_folder_name.strip().startswith("AE")
+                    is_ocg = card_folder_name.strip().startswith("OCG")
                     card_format = "OCG" if is_ocg else "TCG"
+                    if is_ae:
+                        card_format = "AE"
+                    elif is_ocg:
+                        card_format = "OCG"
+                    else:
+                        is_tcg = True
+                        card_format = "TCG"
                     
                     log(f"\tL{line_count}; Processing {row_card_name} with cardset '{row[index_cardnumber]}'")
                     card_count += 1
@@ -381,12 +397,15 @@ try:
                         cards.append(new_card_object)
                         if is_ocg:
                             cards_ocg.append(new_card_object)
+                        elif is_ae:
+                            cards_ocg.append(new_card_object)
+                            cards_ae.append(new_card_object)
                         else:
                             cards_tcg.append(new_card_object)
 
                     # Add to listings
                     #if card_folder_name in folder_listing: # Check condition for listing
-                    if card_rarity != "Common": # Check condition for listing
+                    if is_tcg and card_rarity != "Common": # Check condition for listing
                         price_low: float = round(float(row[index_price_low]) * price_conversion_php, 2) if row[index_price_low] else 0
                         price_mid: float = round(float(row[index_price_mid]) * price_conversion_php, 2) if row[index_price_mid] else 0
                         price_market: float = round(float(row[index_price_market]) * price_conversion_php, 2) if row[index_price_market] else 0
@@ -406,10 +425,8 @@ try:
                         "price_market": index_price_market,
                         "rarity" : card_rarity
                         }
-                        if is_ocg:
-                            card_listings_ocg.append(new_obj_listing)
-                        else:
-                            card_listings.append(new_obj_listing)
+                        # Add to list
+                        card_listings.append(new_obj_listing)
 
     except Exception as e:
         log_err("CSV file error", e)
@@ -431,10 +448,15 @@ try:
     write_json(export_json_file_name[index_ocg], cards_ocg)
     log(f"Exported OCG card list.")
 
-    write_json(jsonfile_listings[index_ocg], card_listings_ocg)
-    log(f"Exported OCG listings.")
-
     process_card_list("OCG", export_json_file_name[index_ocg], jsonfile_card_conf_list[index_ocg], jsonfile_cards_with_error[index_ocg], export_conf_file[index_ocg])
+    #"""
+
+    #"""
+    # Process AE cards
+    write_json(export_json_file_name[index_ae], cards_ae)
+    log(f"Exported AE card list.")
+
+    process_card_list("AE", export_json_file_name[index_ae], jsonfile_card_conf_list[index_ae], jsonfile_cards_with_error[index_ae], export_conf_file[index_ae])
     #"""
 
     #"""
